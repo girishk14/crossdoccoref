@@ -12,9 +12,9 @@ def crawl_nyt():
 	dayjump = 1
 	pages = range(1, 101)	
 	
-	api_keys = ['b9f6cf6ee1fdcaa58a3d760b4d693f15:19:74490258', 'd659a72afd30a86686d9545457a1ebe4:7:74490258' , '8e9b89987c890838ef2e722c3ab0e9ef:15:74492419', '83d2d910c9d30979c9a797db9839f59a:9:74492419', 'd4d257cbc2de8d993bba43782f1668f4:0:74492419']
+	api_keys = ['b9f6cf6ee1fdcaa58a3d760b4d693f15:19:74490258', 'd659a72afd30a86686d9545457a1ebe4:7:74490258' , '8e9b89987c890838ef2e722c3ab0e9ef:15:74492419', '83d2d910c9d30979c9a797db9839f59a:9:74492419', 'd4d257cbc2de8d993bba43782f1668f4:0:74492419', '7ba3836e2ab6c094de7b7e0aead16b19:10:74490258']
 
-	start_date = datetime.date(2009, 01, 01);
+	start_date = datetime.date(2015, 9, 6);
 	date_offset = datetime.timedelta(days = dayjump-1)
 	date_objs = [((start_date + datetime.timedelta(days = i)),(start_date + datetime.timedelta(days=i) + date_offset)) for i in range(0, 2600, dayjump)]
 	dates = [('%04d'%d1.year + '%02d'%d1.month + '%02d'%d1.day, '%04d'%d2.year + '%02d'%d2.month + '%02d'%d2.day)   for (d1, d2)  in date_objs]
@@ -33,6 +33,7 @@ def crawl_nyt():
 	}
 	articles_collected = 0 
 	for (begin_date, end_date) in dates:
+	#	print(begin_date)
 		parameters['begin_date'] = begin_date
 		parameters['end_date'] =  end_date
 		page_bound = 100
@@ -59,13 +60,19 @@ def crawl_nyt():
 						articles_collected +=1
 						entry = {}
 						entry['web_url'] = doc['web_url']
-					
-						if 'main' in doc['headline'].keys():
-							entry['headline'] = doc['headline']['main']
-						entry['keywords'] = doc['keywords']
-						entry['pub_date'] = doc['pub_date']
-						entry['section_name'] = doc['section_name']
-						opfile.write(json.dumps(entry, indent=1))
+							
+						if 'headline' in doc.keys():
+							if len(doc['headline'])>0:
+								if 'main' in doc['headline'].keys():
+									entry['headline'] = doc['headline']['main']
+						if 'keywords' in doc.keys():
+							entry['keywords'] = doc['keywords']
+						if 'pub_date' in doc.keys():
+							entry['pub_date'] = doc['pub_date']
+						if 'section_name' in doc.keys():
+							entry['section_name'] = doc['section_name']
+						opfile.write(json.dumps(entry))
+						opfile.write("\n")
 					break
 				else:
 					if attempts >=50:
