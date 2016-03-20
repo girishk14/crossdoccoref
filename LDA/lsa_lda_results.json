@@ -1,0 +1,96 @@
+{
+ "docs": [
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/91.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/12.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/62.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/42.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/11.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/85.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/64.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/24.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/92.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/13.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/61.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/25.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/44.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/31.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/72.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/21.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/22.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/74.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/43.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/23.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/84.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/81.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/71.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/94.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/45.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/41.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/32.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/75.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/73.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/83.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/33.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/95.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/63.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/15.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/34.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/93.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/14.txt", 
+  "/home/network/girishk14/crossdoccoref/LSA/dataset/82.txt"
+ ], 
+ "lda_clusters": {
+  "0": [
+   8, 
+   23, 
+   31, 
+   35
+  ], 
+  "1": [
+   1, 
+   4, 
+   9, 
+   33, 
+   36
+  ], 
+  "2": [
+   0, 
+   7, 
+   11, 
+   15, 
+   16, 
+   19
+  ], 
+  "3": [
+   2, 
+   3, 
+   6, 
+   10, 
+   12, 
+   18, 
+   24, 
+   25, 
+   32
+  ], 
+  "4": [
+   5, 
+   14, 
+   17, 
+   21, 
+   22, 
+   27, 
+   28, 
+   37
+  ], 
+  "5": [
+   20, 
+   29
+  ], 
+  "7": [
+   13, 
+   26, 
+   30, 
+   34
+  ]
+ }
+}

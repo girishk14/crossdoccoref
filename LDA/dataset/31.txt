@@ -1,0 +1,15 @@
+The international hacker collective Anonymous has declared "total war" on presidential candidate Donald Trump — again.
+
+In a video posted to YouTube earlier this month, a masked man says, "we have been watching you for a long time and what we have seen is deeply disturbing." The man goes on to ask that people shut down Trump's websites and "reveal what he doesn't want the public to know."
+
+Since Trump once said he could shoot a person in the middle of the street and not lose voters, it's hard to imagine what kind of damaging dirt Anonymous could dig up.
+
+But on the first point: Whoever takes up the offer is likely to just do a distributed denial of service (DDoS) attack, a way of harnessing multiple computers to take down a website that is as simple as typing in a website address and clicking a button.
+
+The Anonymous "total war" declaration calls for everyone to target www.trumpchicago.com, the website for Trump International Hotel & Tower in Chicago, on April 1. 
+
+The operation called #OpTrump originally kicked off in December, after Trump called for a ban on all Muslims traveling to the United States.
+
+But there's reason to be somewhat skeptical of this latest development. There's not much activity in the group's public chatroom around the op, and other Anons have been criticizing the effort on Twitter.
+
+"DDoS is not hacking," tweeted one Anon account, @YourAnonNews.
