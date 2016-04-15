@@ -6,20 +6,20 @@ import nltk
 import sys
 reload (sys)
 sys.setdefaultencoding("utf-8")
-ClusterRelations={}
 count =0
 
 
 path = "./clusters/"
 op_path = "./relations/"
 
-listJsons=[]
 
 
 
 for cluster in os.listdir(path):
+	ClusterRelations = {}
+	listJsons = []
 	dir_name = path + cluster + '/'
-
+	#print("Cluster", cluster)
 	count = 0
 	for filename in sorted(os.listdir(dir_name)):
 		if filename.startswith('.'):
@@ -27,7 +27,6 @@ for cluster in os.listdir(path):
 		with open(os.path.join(dir_name, filename)) as f:
 			json_data=f.read()
 			listJsons.append(json.loads(json_data))
-	
 	
 	for data in listJsons:
  	   	NodeRelations={}
@@ -54,10 +53,9 @@ for cluster in os.listdir(path):
     
 
 
-   	 	count+=1
-    		ClusterRelations[str(count)]=NodeRelations
-
-
+		count+=1
+		ClusterRelations[str(count)]=NodeRelations
+	#	print(ClusterRelations.keys())
 	strjson=json.dumps(ClusterRelations)
 	with open(os.path.join(op_path, cluster + '.json'),'w') as of:
 		print(of)
