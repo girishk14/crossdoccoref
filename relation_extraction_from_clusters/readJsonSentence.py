@@ -6,45 +6,62 @@ import nltk
 import sys
 reload (sys)
 sys.setdefaultencoding("utf-8")
-NodeRelations1={}
+ClusterRelations={}
 count =0
-path='./'+sys.argv[1]
-print path
-# path = './two'
+
+
+path = "./clusters/"
+op_path = "./relations/"
+
 listJsons=[]
 
-for filename in sorted(os.listdir(path)):
-	with open(os.path.join(path, filename)) as f:
-		json_data=f.read()
-		listJsons.append(json.loads(json_data))
-for data in listJsons:
-    NodeRelations={}
-    for sentences in data['sentences']:
-		if sentences['openie'] is not None:
-			for openies in sentences['openie']:
-				try:
-					if openies['subject'] in NodeRelations:
-						
-						list1=[]
-						list1.append(openies['relation'])
-						list1.append(openies['object'])
-						NodeRelations[openies['subject']].append(list1)
-					else:
-						NodeRelations[openies['subject']]=[]
-						list1=[]
-						list1.append(openies['relation'])
-						list1.append(openies['object'])
-						
-						NodeRelations[openies['subject']].append(list1)
-						
-				except:
-					pass
-    count+=1
-    NodeRelations1[str(count)]=NodeRelations
-print NodeRelations1.keys()
-strjson=json.dumps(NodeRelations1)
-with open('temp6.json','w') as of:
-	of.write(strjson)
 
+
+for cluster in os.listdir(path):
+	dir_name = path + cluster + '/'
+
+	count = 0
+	for filename in sorted(os.listdir(dir_name)):
+		if filename.startswith('.'):
+			continue
+		with open(os.path.join(dir_name, filename)) as f:
+			json_data=f.read()
+			listJsons.append(json.loads(json_data))
+	
+	
+	for data in listJsons:
+ 	   	NodeRelations={}
+    		for sentences in data['sentences']:
+				if sentences['openie'] is not None:
+					for openies in sentences['openie']:
+						try:
+							if openies['subject'] in NodeRelations:
+								list1=[]
+								list1.append(openies['relation'])
+								list1.append(openies['object'])
+								NodeRelations[openies['subject']].append(list1)
+							else:
+								NodeRelations[openies['subject']]=[]
+								list1=[]
+								list1.append(openies['relation'])
+								list1.append(openies['object'])
+								NodeRelations[openies['subject']].append(list1)
+						
+						except:
+							pass
+
+
+    
+
+
+   	 	count+=1
+    		ClusterRelations[str(count)]=NodeRelations
+
+
+	strjson=json.dumps(ClusterRelations)
+	with open(os.path.join(op_path, cluster + '.json'),'w') as of:
+		print(of)
+		of.write(strjson)
+#		sys.exit()
 
 
