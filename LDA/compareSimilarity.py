@@ -25,7 +25,6 @@ op_json['docs'] = []
 documents=[]
 dict1={}
 
-#path = "../data/NYTimes/Text/20151116_to_20151116/*.txt"
 path = 'dataset/*.txt'
 
 file_order =  []

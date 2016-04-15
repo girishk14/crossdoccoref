@@ -1,8 +1,0 @@
-dailymail: http://www.dailymail.co.uk/wires/ap/article-3498561/Germany-arrests-alleged-IS-member-Frankfurt-airport.html
-
-euronews: http://www.euronews.com/newswires/3168336-germany-arrests-suspected-is-fighter-returning-from-syria/
-
-firstPost: http://www.firstpost.com/world/germany-says-russian-withdrawal-from-syria-increases-pressure-on-assad-reuters-2675194.html?utm_source=FP_CAT_LATEST_NEWS
-
-Reuters: http://uk.reuters.com/article/uk-germany-arrests-idUKKCN0WK229
-

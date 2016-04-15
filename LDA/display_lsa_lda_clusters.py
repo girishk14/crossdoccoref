@@ -1,12 +1,15 @@
 import json
 import os
 import sys
+
+#This script is to view the results of LDA and LSA on the New York times corpus that was crawled.
+
 obj = None
 with open('lsa_lda_results.json', 'r') as f:
 	obj = json.loads(f.read())
 
 
-json_dir = '../data/NYTimes/JSON/'
+#json_dir = '../data/NYTimes/JSON/'
 
 jsondescs = []
 for txtfile in obj['docs']:

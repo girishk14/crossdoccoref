@@ -1,3 +1,6 @@
+#This script was written to check polysemous words using wordnet
+
+
 import sys
 from nltk.corpus import wordnet as wn
 

@@ -1,5 +1,0 @@
-guardian: http://www.theguardian.com/environment/2015/nov/17/paris-climate-summit-march-in-doubt-after-talks-deadlock
-
-heritage:http://www.heritage.org/research/reports/2016/03/the-paris-agreement-is-a-treaty-and-should-be-submitted-to-the-senate
-
-theGuardian: http://www.theguardian.com/environment/commentisfree/2015/nov/29/the-paris-climate-summit-a-real-test-of-humanity
