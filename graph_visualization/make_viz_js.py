@@ -26,7 +26,7 @@ def read_cluster_json():
 			if subj in node_dictionary and node_dictionary[subj]['group']!='Common' and  node_dictionary[subj]['group'] != cluster_member:
 				node_dictionary[subj]['group'] = 'Common'
 				node_dictionary[subj]['members'].append(cluster_member)
-			else:
+			elif subj not in node_dictionary:
 				node_dictionary[subj] = {}
 				node_dictionary[subj]['id'] = entity_counter
 				entity_counter+=1
@@ -40,18 +40,17 @@ def read_cluster_json():
 					if obj in node_dictionary and node_dictionary[obj]['group']!='Common' and  node_dictionary[obj]['group'] != cluster_member:
 						node_dictionary[obj]['group'] = 'Common'
 						node_dictionary[obj]['members'].append(cluster_member)
-					else:
+					elif obj not in node_dictionary:
 						node_dictionary[obj] = {}
 						node_dictionary[obj]['id'] = entity_counter
 
-						if entity_counter == 18 :
-							for node in node_dictionary:
-								print node
-							sys.exit()
 						entity_counter+=1	
 						node_dictionary[obj]['group'] = cluster_member
 						node_dictionary[obj]['members'] = []
 						node_dictionary[obj]['members'].append(cluster_member)
+
+						if entity_counter == 19:
+							print(node_dictionary.keys())
 
 
 
@@ -60,6 +59,7 @@ def read_cluster_json():
 					edge_obj['from'] = node_dictionary[subj]['id']
 					edge_obj['to'] = node_dictionary[obj]['id']
 					edge_obj['label'] = rel
+					print(edge_obj)
 					graph['edges'].append(edge_obj)
 
 
