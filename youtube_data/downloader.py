@@ -60,12 +60,6 @@ def download_comments(youtube_id, sleep=1):
 
     html = response.text
     print(html)
-    #sys.exit()
-
-    #with open("block.html", 'w') as of:
-#	    of.write(html)
-    
-    
 	
     reply_cids = extract_reply_cids(html)
  
