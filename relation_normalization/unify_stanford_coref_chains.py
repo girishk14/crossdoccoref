@@ -34,6 +34,5 @@ for file in os.listdir(ann_dir):
 
 				for idx in range(start_idx -1 , end_idx - 1):
 					mention['pos'].append(ann_json['sentences'][sent_num -1]['tokens'][idx]['pos'])
-
-				print(mention)
-				sys.exit()
+					mention['ner'].append(ann_json['sentences'][sent_num -1]['tokens'][idx]['ner'])
+					
