@@ -9,15 +9,10 @@ import collections
 ann_dir = './annotated_json_cleaned/'
 stanford_coref_dir = './parse_coref_openie/'
 
-
-subj_errors = 0 
-obj_errors = 0
-rel_errors = 0
-
-
+jdir = "jsons/"
 
 dictCorefRelations ={}
-with open('11.json', 'r') as f:
+with open(jdir + sys.argv[1] + ".json", 'r') as f:
 	dictCorefRelations=json.loads(f.read())
 
 dictCorefs= dictCorefRelations['corefs']
@@ -34,14 +29,19 @@ dictResultOpenIE={}
 # dictResultOpenIE['openie']=collections.OrderedDict(sorted(dictOpenIE.items()))
 # print dictResultOpenIE
 dictResultOpenIE['openie']= sorted(dictOpenIE.items())
+
 dictResultOpenIEFinal={}   
 for tuples in dictResultOpenIE['openie']:
 	if int(tuples[0][0]) not in dictResultOpenIEFinal.keys():
 		dictResultOpenIEFinal [int(tuples[0][0])]=[]
+		dictResultOpenIEFinal [int(tuples[0][0])].append(tuples[1])
+
 	else:
 		dictResultOpenIEFinal [int(tuples[0][0])].append(tuples[1])
-with open('dictOpenIE.json', 'w') as f:
+with open(jdir + sys.argv[1] + "_" + 'dictOpenIE.json', 'w') as f:
 	f.write(json.dumps(dictResultOpenIEFinal))
+
+
 
 
 dictCorefResult={}
@@ -58,43 +58,94 @@ for corefs in dictCorefs:
 dictCorefResultSorted={}
 
 dictCorefResultSorted['corefs']= sorted(dictCorefResult.items())
-
-# print dictCorefResultSorted
-# sys.exit()
-
-
-with open('dictCorefs.json', 'w') as f:
-	f.write(json.dumps(dictCorefResultSorted))
+final_dict  =  {}
+final_dict['corefs'] = []
 
 
-dictCorefOpenIE={}
-
-for coreTuples in dictCorefResultSorted['corefs']:
-	print coreTuples
-
-
-
-# dictCorefOpenIE={}
-# for corefTuples in dictCorefResultSorted['corefs']:
-# 	list1=[]
-# 	if corefTuples[0][0] not in dictCorefOpenIE:
-# 		dictCorefOpenIE[corefTuples[0][0]] =[]
-# 	else:
-# 		if corefTuples[0][0] in dictResultOpenIEFinal.keys():
-# 			print len(dictResultOpenIEFinal[corefTuples[0][0]])
-# 			dictCorefOpenIE[corefTuples[0][0]].append(dictResultOpenIEFinal[corefTuples[0][0]])
-
-# print dictCorefOpenIE
-# sys.exit()
-
-dictFinalRelations={}
-countCoref=1
-for corefs in dictCorefOpenIE:
-	for lists in dictCorefOpenIE[corefs]:
-		print len(lists)
-		# print lists[0]['subject']+ " "+ lists[0]['relation']+" "+ lists[0]['object']
+for (location, attr) in dictCorefResultSorted['corefs']:
+	entity = {}
+	entity['location'] = location
+	entity['attributes'] = attr
+	final_dict['corefs'].append(entity)
 
 
-print dictFinalRelations
+with open(jdir + sys.argv[1] + "_" + 'dictCorefs.json', 'w') as f:
+	f.write(json.dumps(final_dict))
+
+
+coref_json = final_dict
+openie_json = dictResultOpenIEFinal
+
+for entity in coref_json['corefs']:
+	entity['relations'] = []
+	sent_number = entity['location'][1]
+	#print(sent_number)
+	try:
+		for relation in openie_json[(sent_number)]:
+			entity['relations'].append(relation)
+	except:
+		continue
+
+with open(jdir + sys.argv[1] + "_" + "rel_coref_merged.json", "w") as opf:
+	opf.write(json.dumps(coref_json))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
