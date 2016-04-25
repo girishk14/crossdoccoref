@@ -75,6 +75,8 @@ with open(jdir + sys.argv[1] + "_" + 'dictCorefs.json', 'w') as f:
 
 coref_json = final_dict
 openie_json = dictResultOpenIEFinal
+ct = 0
+merged = {'corefs':[]}
 
 for entity in coref_json['corefs']:
 	entity['relations'] = []
@@ -82,12 +84,27 @@ for entity in coref_json['corefs']:
 	#print(sent_number)
 	try:
 		for relation in openie_json[(sent_number)]:
-			entity['relations'].append(relation)
+			if relation['subject'] == entity['attributes'][0]  :#or entity['attributes'][0] in relation['subject']:
+				relation['role'] = 'subject'
+				entity['relations'].append(relation)
+				print(relation['role'], entity['attributes'][0], relation['object'], relation['subject'], relation['relation'])
+
+
+			elif relation['object'] == entity['attributes'][0] :# or entity['attributes'][0] in relation['object']:
+				relation['role'] = 'object'
+				entity['relations'].append(relation)
+
+				print(relation['role'], entity['attributes'][0], relation['object'], relation['subject'], relation['relation'])
+
+		if len(entity['relations']) > 0:
+				merged['corefs'].append(	entity)
+
+
 	except:
 		continue
 
 with open(jdir + sys.argv[1] + "_" + "rel_coref_merged.json", "w") as opf:
-	opf.write(json.dumps(coref_json))
+	opf.write(json.dumps(merged))
 
 
 

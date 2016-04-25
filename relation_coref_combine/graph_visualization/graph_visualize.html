@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+    <title>Network | Groups</title>
+
+    <style>
+        body {
+            color: #d3d3d3;
+            font: 12pt arial;
+           /* background-color: #222222; */
+        }
+
+        #mynetwork {
+            width: 1800px;
+            height: 1000px;
+            border: 1px solid #444444;
+            /*background-color: #222222;*/
+        }
+    </style>
+
+    <script type="text/javascript" src="dist/vis.js"></script>
+    <link href="dist/vis.css" rel="stylesheet" type="text/css"/>
+
+    <script src="googleAnalytics.js"></script>
+</head>
+
+<body>
+
+<div id="mynetwork"></div>
+<script type="text/javascript">
+    var color = 'black';
+    var len = undefined;
+    var graph = {"nodes": [{"group": "11", "id": 0, "label": "Monir Ahmed Al Hadj"}, {"group": "21", "id": 1, "label": "it"}, {"group": "21", "id": 2, "label": "it"}, {"group": "21", "id": 3, "label": "Molenbeek"}, {"group": "21", "id": 4, "label": "Molenbeek"}, {"group": "indep_targets", "id": 5, "label": "Abdeslam"}, {"group": "37", "id": 6, "label": "Police"}, {"group": "37", "id": 7, "label": "police"}, {"group": "indep_targets", "id": 8, "label": "traces of explosives"}, {"group": "indep_targets", "id": 9, "label": "traces of suspect"}, {"group": "53", "id": 10, "label": "Live updates"}, {"group": "192", "id": 11, "label": "raids"}, {"group": "1", "id": 12, "label": "Paris"}, {"group": "indep_targets", "id": 13, "label": "jihadist attacks"}, {"group": "128", "id": 14, "label": "four days"}, {"group": "indep_targets", "id": 15, "label": "false ID"}, {"group": "3", "id": 16, "label": "Brussels"}, {"group": "3", "id": 17, "label": "Brussels"}, {"group": "3", "id": 18, "label": "Brussels"}, {"group": "indep_targets", "id": 19, "label": "dramatic raid"}, {"group": "indep_targets", "id": 20, "label": "Western Union office"}, {"group": "indep_targets", "id": 21, "label": "national"}, {"group": "2", "id": 22, "label": "Salah Abdeslam"}, {"group": "2", "id": 23, "label": "him"}, {"group": "2", "id": 24, "label": "Abdeslam"}, {"group": "2", "id": 25, "label": "Abdeslam"}, {"group": "2", "id": 26, "label": "He"}, {"group": "indep_targets", "id": 27, "label": "wounded"}, {"group": "indep_targets", "id": 28, "label": "volley of gunfire"}, {"group": "indep_targets", "id": 29, "label": "bundled"}, {"group": "indep_targets", "id": 30, "label": "in which people died"}, {"group": "indep_targets", "id": 31, "label": "130 people died"}, {"group": "indep_targets", "id": 32, "label": "key"}, {"group": "indep_targets", "id": 33, "label": "have returned"}, {"group": "indep_targets", "id": 34, "label": "believed"}, {"group": "126", "id": 35, "label": "Hasna Aitboulahcen"}, {"group": "164", "id": 36, "label": "January"}, {"group": "154", "id": 37, "label": "Belgium"}, {"group": "105", "id": 38, "label": "Officials"}, {"group": "indep_targets", "id": 39, "label": "most"}, {"group": "96", "id": 40, "label": "Belkaid"}], "edges": [{"to": 0, "from": 0}, {"to": 0, "from": 0, "label": "is"}, {"to": 2, "from": 1}, {"to": 3, "from": 2}, {"to": 4, "from": 3}, {"to": 1, "from": 4}, {"to": 1, "from": 1, "label": "happened"}, {"to": 1, "from": 2, "label": "happened"}, {"to": 0, "from": 3, "label": "is"}, {"to": 5, "from": 4, "label": "had lived in"}, {"to": 7, "from": 6}, {"to": 6, "from": 7}, {"to": 8, "from": 6, "label": "found"}, {"to": 9, "from": 6, "label": "found"}, {"to": 8, "from": 6, "label": "found"}, {"to": 8, "from": 6, "label": "found"}, {"to": 7, "from": 7, "label": "series of"}, {"to": 10, "from": 10}, {"to": 1, "from": 10, "label": "happened"}, {"to": 11, "from": 11}, {"to": 7, "from": 11, "label": "series of"}, {"to": 12, "from": 12}, {"to": 13, "from": 12, "label": "is in"}, {"to": 14, "from": 14}, {"to": 15, "from": 14, "label": "was also used after"}, {"to": 15, "from": 14, "label": "was used after"}, {"to": 17, "from": 16}, {"to": 18, "from": 17}, {"to": 16, "from": 18}, {"to": 19, "from": 16, "label": "is in"}, {"to": 20, "from": 17, "label": "is in"}, {"to": 21, "from": 18, "label": "born in"}, {"to": 21, "from": 18, "label": "born in"}, {"to": 21, "from": 18, "label": "born in"}, {"to": 23, "from": 22}, {"to": 24, "from": 23}, {"to": 25, "from": 24}, {"to": 26, "from": 25}, {"to": 22, "from": 26}, {"to": 27, "from": 22, "label": "been"}, {"to": 16, "from": 22, "label": "been wounded in"}, {"to": 19, "from": 22, "label": "been wounded in"}, {"to": 16, "from": 22, "label": "been wounded in"}, {"to": 11, "from": 22, "label": "been wounded in"}, {"to": 28, "from": 23, "label": "being bundled after"}, {"to": 29, "from": 23, "label": "being"}, {"to": 7, "from": 23, "label": "being bundled into"}, {"to": 7, "from": 23, "label": "being"}, {"to": 28, "from": 23, "label": "being bundled after"}, {"to": 7, "from": 23, "label": "being"}, {"to": 30, "from": 24, "label": "is suspect"}, {"to": 30, "from": 24, "label": "is key suspect"}, {"to": 31, "from": 24, "label": "is key suspect"}, {"to": 30, "from": 24, "label": "is suspect"}, {"to": 32, "from": 24, "label": "is"}, {"to": 31, "from": 24, "label": "is key suspect"}, {"to": 31, "from": 24, "label": "is suspect"}, {"to": 30, "from": 24, "label": "is key suspect"}, {"to": 31, "from": 24, "label": "is suspect"}, {"to": 5, "from": 25, "label": "had lived in"}, {"to": 12, "from": 25, "label": "had lived before"}, {"to": 33, "from": 26, "label": "is believed"}, {"to": 34, "from": 26, "label": "is"}, {"to": 26, "from": 26, "label": "returned to"}, {"to": 33, "from": 26, "label": "is believed"}, {"to": 35, "from": 35}, {"to": 15, "from": 35, "label": "transfer money to"}, {"to": 36, "from": 36}, {"to": 7, "from": 36, "label": "said In"}, {"to": 37, "from": 37}, {"to": 26, "from": 37, "label": "returned to"}, {"to": 38, "from": 38}, {"to": 39, "from": 38, "label": "have identified"}, {"to": 40, "from": 40}, {"to": 34, "from": 40, "label": "is"}]}
+    // create a network
+    var container = document.getElementById('mynetwork');
+    var data = {
+        nodes: graph["nodes"],
+        edges: graph["edges"]
+    };
+    var options = {
+
+        groups:
+        {
+
+            indep_targets : {color: {background:'white', border:'blue'}},
+            shape: 'square'
+        },
+
+        nodes: {
+            //shape: 'dot',
+            size: 30,
+            font: {
+                size: 20,
+                color: '#000000',
+
+            },
+
+
+            borderWidth: 2
+        },
+        edges: {
+            width: 2
+        },
+
+        interaction: {
+          navigationButtons: true,
+          keyboard: true}
+    };
+    network = new vis.Network(container, data, options);
+
+         // add event listeners
+      network.on('select', function(params) {
+        document.getElementById('selection').innerHTML = 'Selection: ' + params.nodes; })
+</script>
+</body>
+</html>
+
