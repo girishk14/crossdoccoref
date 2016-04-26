@@ -6,10 +6,15 @@ import json
 json_dir = 'annotated_dataset/'
 
 
+graph = {'nodes':[], 'edges':[]}
+	
 for ann_json in os.listdir(json_dir):
 
-	if ann_json!='11.txt.json':
-		continue
+	# if ann_json!=sys.argv[1]:
+	# 	continue
+
+	# if ann_json!='11.txt.json':
+	# 	continue
 
 	node_ctr = 0
 	print(ann_json)
@@ -17,10 +22,16 @@ for ann_json in os.listdir(json_dir):
 
 	ann = json.load(iff)
 
-	graph = {'nodes':[], 'edges':[]}
-	
 	for idx,sentence in enumerate(ann['sentences']):
 		sent_base_ctr = node_ctr
+		# if idx!=int(sys.argv[2]):
+		# 	continue
+
+		# if idx > 2:
+		# 	continue
+
+		if  not "Abdeslam" in [token['word'] for token in sentence['tokens']]:
+			continue
 
 		root = {'label':'ROOT', 'id':node_ctr,'group':idx}
 		graph['nodes'].append(root)
@@ -35,7 +46,7 @@ for ann_json in os.listdir(json_dir):
 			edge = {'label':dependency['dep'], 'from':dependency['governor'] + sent_base_ctr, 'to':sent_base_ctr + dependency['dependent']}
 			graph['edges'].append(edge);
 
-		break
+		# break
 
 
 with open('11_graph.json', 'w') as of:
