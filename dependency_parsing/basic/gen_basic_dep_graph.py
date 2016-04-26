@@ -7,7 +7,7 @@ json_dir = 'annotated_dataset/'
 
 
 graph = {'nodes':[], 'edges':[]}
-	
+node_ctr = 0
 for ann_json in os.listdir(json_dir):
 
 	# if ann_json!=sys.argv[1]:
@@ -16,7 +16,6 @@ for ann_json in os.listdir(json_dir):
 	# if ann_json!='11.txt.json':
 	# 	continue
 
-	node_ctr = 0
 	print(ann_json)
 	iff = open(json_dir + ann_json)
 
