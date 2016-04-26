@@ -1,0 +1,6799 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (NP\n    (NP\n      (NP (NNP OKLAHOMA) (NNP CITY))\n      (PRN (-LRB- -LRB-)\n        (NP (NNP AP))\n        (-RRB- -RRB-)))\n    (NP\n      (NP (CD _))\n      (SBAR\n        (S\n          (NP (NNP Paul) (NNP Jesperson))\n          (VP (VBD banked)\n            (PP (IN in)\n              (NP (DT a) (NN halfcourt) (NN shot)))\n            (PP (IN at)\n              (NP (DT the) (NN buzzer)))\n            (S\n              (VP (TO to)\n                (VP (VB give)\n                  (NP\n                    (NP (JJ 11th))\n                    (VP (VBN seeded)\n                      (PP (NN Northern)\n                        (NP (NNP Iowa))))\n                    (SBAR\n                      (S\n                        (NP (DT a) (CD 75-72))\n                        (VP (VBP win)\n                          (PP (IN over)\n                            (NP (NN No.) (CD 6) (NN seed)))))))\n                  (NP\n                    (NP (NNP Texas) (NNP Friday))\n                    (PP (IN in)\n                      (NP\n                        (NP (DT the) (JJ first) (NN round))\n                        (PP (IN of)\n                          (NP\n                            (NP (DT the) (NNP NCAA) (NNP Tournament) (POS 's))\n                            (NNP West) (NNP Region)))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "CITY"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 1,
+          "dependentGloss": "OKLAHOMA"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "AP",
+          "dependent": 3,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 4,
+          "dependentGloss": "AP"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "AP",
+          "dependent": 5,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "dep",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 6,
+          "dependentGloss": "_"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Jesperson",
+          "dependent": 7,
+          "dependentGloss": "Paul"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 8,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "_",
+          "dependent": 9,
+          "dependentGloss": "banked"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "shot",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "shot",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "shot",
+          "dependent": 12,
+          "dependentGloss": "halfcourt"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 13,
+          "dependentGloss": "shot"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "buzzer",
+          "dependent": 14,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "buzzer",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 16,
+          "dependentGloss": "buzzer"
+        },
+        {
+          "dep": "mark",
+          "governor": 18,
+          "governorGloss": "give",
+          "dependent": 17,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 18,
+          "dependentGloss": "give"
+        },
+        {
+          "dep": "iobj",
+          "governor": 18,
+          "governorGloss": "give",
+          "dependent": 19,
+          "dependentGloss": "11th"
+        },
+        {
+          "dep": "acl",
+          "governor": 19,
+          "governorGloss": "11th",
+          "dependent": 20,
+          "dependentGloss": "seeded"
+        },
+        {
+          "dep": "dep",
+          "governor": 22,
+          "governorGloss": "Iowa",
+          "dependent": 21,
+          "dependentGloss": "Northern"
+        },
+        {
+          "dep": "nmod",
+          "governor": 20,
+          "governorGloss": "seeded",
+          "dependent": 22,
+          "dependentGloss": "Iowa"
+        },
+        {
+          "dep": "det",
+          "governor": 24,
+          "governorGloss": "75-72",
+          "dependent": 23,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 25,
+          "governorGloss": "win",
+          "dependent": 24,
+          "dependentGloss": "75-72"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 19,
+          "governorGloss": "11th",
+          "dependent": 25,
+          "dependentGloss": "win"
+        },
+        {
+          "dep": "case",
+          "governor": 29,
+          "governorGloss": "seed",
+          "dependent": 26,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "compound",
+          "governor": 29,
+          "governorGloss": "seed",
+          "dependent": 27,
+          "dependentGloss": "No."
+        },
+        {
+          "dep": "nummod",
+          "governor": 29,
+          "governorGloss": "seed",
+          "dependent": 28,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "nmod",
+          "governor": 25,
+          "governorGloss": "win",
+          "dependent": 29,
+          "dependentGloss": "seed"
+        },
+        {
+          "dep": "compound",
+          "governor": 31,
+          "governorGloss": "Friday",
+          "dependent": 30,
+          "dependentGloss": "Texas"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "give",
+          "dependent": 31,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "case",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 32,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 33,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 34,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nmod",
+          "governor": 31,
+          "governorGloss": "Friday",
+          "dependent": 35,
+          "dependentGloss": "round"
+        },
+        {
+          "dep": "case",
+          "governor": 42,
+          "governorGloss": "Region",
+          "dependent": 36,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 39,
+          "governorGloss": "Tournament",
+          "dependent": 37,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 39,
+          "governorGloss": "Tournament",
+          "dependent": 38,
+          "dependentGloss": "NCAA"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 42,
+          "governorGloss": "Region",
+          "dependent": 39,
+          "dependentGloss": "Tournament"
+        },
+        {
+          "dep": "case",
+          "governor": 39,
+          "governorGloss": "Tournament",
+          "dependent": 40,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 42,
+          "governorGloss": "Region",
+          "dependent": 41,
+          "dependentGloss": "West"
+        },
+        {
+          "dep": "nmod",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 42,
+          "dependentGloss": "Region"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 43,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "CITY"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 1,
+          "dependentGloss": "OKLAHOMA"
+        },
+        {
+          "dep": "appos",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 4,
+          "dependentGloss": "AP"
+        },
+        {
+          "dep": "dep",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 6,
+          "dependentGloss": "_"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Jesperson",
+          "dependent": 7,
+          "dependentGloss": "Paul"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 8,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "_",
+          "dependent": 9,
+          "dependentGloss": "banked"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "shot",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "shot",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "shot",
+          "dependent": 12,
+          "dependentGloss": "halfcourt"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 13,
+          "dependentGloss": "shot"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "buzzer",
+          "dependent": 14,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "buzzer",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 16,
+          "dependentGloss": "buzzer"
+        },
+        {
+          "dep": "mark",
+          "governor": 18,
+          "governorGloss": "give",
+          "dependent": 17,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 18,
+          "dependentGloss": "give"
+        },
+        {
+          "dep": "iobj",
+          "governor": 18,
+          "governorGloss": "give",
+          "dependent": 19,
+          "dependentGloss": "11th"
+        },
+        {
+          "dep": "acl",
+          "governor": 19,
+          "governorGloss": "11th",
+          "dependent": 20,
+          "dependentGloss": "seeded"
+        },
+        {
+          "dep": "dep",
+          "governor": 22,
+          "governorGloss": "Iowa",
+          "dependent": 21,
+          "dependentGloss": "Northern"
+        },
+        {
+          "dep": "nmod",
+          "governor": 20,
+          "governorGloss": "seeded",
+          "dependent": 22,
+          "dependentGloss": "Iowa"
+        },
+        {
+          "dep": "det",
+          "governor": 24,
+          "governorGloss": "75-72",
+          "dependent": 23,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 25,
+          "governorGloss": "win",
+          "dependent": 24,
+          "dependentGloss": "75-72"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 19,
+          "governorGloss": "11th",
+          "dependent": 25,
+          "dependentGloss": "win"
+        },
+        {
+          "dep": "case",
+          "governor": 29,
+          "governorGloss": "seed",
+          "dependent": 26,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "compound",
+          "governor": 29,
+          "governorGloss": "seed",
+          "dependent": 27,
+          "dependentGloss": "No."
+        },
+        {
+          "dep": "nummod",
+          "governor": 29,
+          "governorGloss": "seed",
+          "dependent": 28,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "nmod:over",
+          "governor": 25,
+          "governorGloss": "win",
+          "dependent": 29,
+          "dependentGloss": "seed"
+        },
+        {
+          "dep": "compound",
+          "governor": 31,
+          "governorGloss": "Friday",
+          "dependent": 30,
+          "dependentGloss": "Texas"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "give",
+          "dependent": 31,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "case",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 32,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 33,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 34,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 31,
+          "governorGloss": "Friday",
+          "dependent": 35,
+          "dependentGloss": "round"
+        },
+        {
+          "dep": "case",
+          "governor": 42,
+          "governorGloss": "Region",
+          "dependent": 36,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 39,
+          "governorGloss": "Tournament",
+          "dependent": 37,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 39,
+          "governorGloss": "Tournament",
+          "dependent": 38,
+          "dependentGloss": "NCAA"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 42,
+          "governorGloss": "Region",
+          "dependent": 39,
+          "dependentGloss": "Tournament"
+        },
+        {
+          "dep": "case",
+          "governor": 39,
+          "governorGloss": "Tournament",
+          "dependent": 40,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 42,
+          "governorGloss": "Region",
+          "dependent": 41,
+          "dependentGloss": "West"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 42,
+          "dependentGloss": "Region"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "CITY"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 1,
+          "dependentGloss": "OKLAHOMA"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "AP",
+          "dependent": 3,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 4,
+          "dependentGloss": "AP"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "AP",
+          "dependent": 5,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "dep",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 6,
+          "dependentGloss": "_"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Jesperson",
+          "dependent": 7,
+          "dependentGloss": "Paul"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 8,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 6,
+          "governorGloss": "_",
+          "dependent": 9,
+          "dependentGloss": "banked"
+        },
+        {
+          "dep": "case",
+          "governor": 13,
+          "governorGloss": "shot",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 13,
+          "governorGloss": "shot",
+          "dependent": 11,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "shot",
+          "dependent": 12,
+          "dependentGloss": "halfcourt"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 13,
+          "dependentGloss": "shot"
+        },
+        {
+          "dep": "case",
+          "governor": 16,
+          "governorGloss": "buzzer",
+          "dependent": 14,
+          "dependentGloss": "at"
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "buzzer",
+          "dependent": 15,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:at",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 16,
+          "dependentGloss": "buzzer"
+        },
+        {
+          "dep": "mark",
+          "governor": 18,
+          "governorGloss": "give",
+          "dependent": 17,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 9,
+          "governorGloss": "banked",
+          "dependent": 18,
+          "dependentGloss": "give"
+        },
+        {
+          "dep": "iobj",
+          "governor": 18,
+          "governorGloss": "give",
+          "dependent": 19,
+          "dependentGloss": "11th"
+        },
+        {
+          "dep": "acl",
+          "governor": 19,
+          "governorGloss": "11th",
+          "dependent": 20,
+          "dependentGloss": "seeded"
+        },
+        {
+          "dep": "dep",
+          "governor": 22,
+          "governorGloss": "Iowa",
+          "dependent": 21,
+          "dependentGloss": "Northern"
+        },
+        {
+          "dep": "nmod",
+          "governor": 20,
+          "governorGloss": "seeded",
+          "dependent": 22,
+          "dependentGloss": "Iowa"
+        },
+        {
+          "dep": "det",
+          "governor": 24,
+          "governorGloss": "75-72",
+          "dependent": 23,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 25,
+          "governorGloss": "win",
+          "dependent": 24,
+          "dependentGloss": "75-72"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 19,
+          "governorGloss": "11th",
+          "dependent": 25,
+          "dependentGloss": "win"
+        },
+        {
+          "dep": "case",
+          "governor": 29,
+          "governorGloss": "seed",
+          "dependent": 26,
+          "dependentGloss": "over"
+        },
+        {
+          "dep": "compound",
+          "governor": 29,
+          "governorGloss": "seed",
+          "dependent": 27,
+          "dependentGloss": "No."
+        },
+        {
+          "dep": "nummod",
+          "governor": 29,
+          "governorGloss": "seed",
+          "dependent": 28,
+          "dependentGloss": "6"
+        },
+        {
+          "dep": "nmod:over",
+          "governor": 25,
+          "governorGloss": "win",
+          "dependent": 29,
+          "dependentGloss": "seed"
+        },
+        {
+          "dep": "compound",
+          "governor": 31,
+          "governorGloss": "Friday",
+          "dependent": 30,
+          "dependentGloss": "Texas"
+        },
+        {
+          "dep": "dobj",
+          "governor": 18,
+          "governorGloss": "give",
+          "dependent": 31,
+          "dependentGloss": "Friday"
+        },
+        {
+          "dep": "case",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 32,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 33,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 34,
+          "dependentGloss": "first"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 31,
+          "governorGloss": "Friday",
+          "dependent": 35,
+          "dependentGloss": "round"
+        },
+        {
+          "dep": "case",
+          "governor": 42,
+          "governorGloss": "Region",
+          "dependent": 36,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 39,
+          "governorGloss": "Tournament",
+          "dependent": 37,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 39,
+          "governorGloss": "Tournament",
+          "dependent": 38,
+          "dependentGloss": "NCAA"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 42,
+          "governorGloss": "Region",
+          "dependent": 39,
+          "dependentGloss": "Tournament"
+        },
+        {
+          "dep": "case",
+          "governor": 39,
+          "governorGloss": "Tournament",
+          "dependent": 40,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 42,
+          "governorGloss": "Region",
+          "dependent": 41,
+          "dependentGloss": "West"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 35,
+          "governorGloss": "round",
+          "dependent": 42,
+          "dependentGloss": "Region"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "CITY",
+          "dependent": 43,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "1",
+      "sentiment": "Negative",
+      "openie": [
+        {
+          "subject": "NCAA Tournament",
+          "subjectSpan": [37, 39],
+          "relation": "of",
+          "relationSpan": [35, 36],
+          "object": "West Region",
+          "objectSpan": [40, 42]
+        },
+        {
+          "subject": "Friday",
+          "subjectSpan": [30, 31],
+          "relation": "is in",
+          "relationSpan": [31, 32],
+          "object": "first round of NCAA Tournament 's West Region",
+          "objectSpan": [33, 42]
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "OKLAHOMA",
+          "originalText": "OKLAHOMA",
+          "lemma": "OKLAHOMA",
+          "characterOffsetBegin": 2,
+          "characterOffsetEnd": 10,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": "\n\n",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "CITY",
+          "originalText": "CITY",
+          "lemma": "CITY",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 15,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "-LRB-",
+          "originalText": "(",
+          "lemma": "-lrb-",
+          "characterOffsetBegin": 16,
+          "characterOffsetEnd": 17,
+          "pos": "-LRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": "AP",
+          "originalText": "AP",
+          "lemma": "AP",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 19,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": "-RRB-",
+          "originalText": ")",
+          "lemma": "-rrb-",
+          "characterOffsetBegin": 19,
+          "characterOffsetEnd": 20,
+          "pos": "-RRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "_",
+          "originalText": "_",
+          "lemma": "_",
+          "characterOffsetBegin": 21,
+          "characterOffsetEnd": 22,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Paul",
+          "originalText": "Paul",
+          "lemma": "Paul",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 27,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Jesperson",
+          "originalText": "Jesperson",
+          "lemma": "Jesperson",
+          "characterOffsetBegin": 28,
+          "characterOffsetEnd": 37,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "banked",
+          "originalText": "banked",
+          "lemma": "bank",
+          "characterOffsetBegin": 38,
+          "characterOffsetEnd": 44,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 45,
+          "characterOffsetEnd": 47,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 48,
+          "characterOffsetEnd": 49,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "halfcourt",
+          "originalText": "halfcourt",
+          "lemma": "halfcourt",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 59,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "shot",
+          "originalText": "shot",
+          "lemma": "shot",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 64,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "at",
+          "originalText": "at",
+          "lemma": "at",
+          "characterOffsetBegin": 65,
+          "characterOffsetEnd": 67,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 68,
+          "characterOffsetEnd": 71,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "buzzer",
+          "originalText": "buzzer",
+          "lemma": "buzzer",
+          "characterOffsetBegin": 72,
+          "characterOffsetEnd": 78,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 79,
+          "characterOffsetEnd": 81,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "give",
+          "originalText": "give",
+          "lemma": "give",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 86,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "11th",
+          "originalText": "11th",
+          "lemma": "11th",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 91,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "11.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "seeded",
+          "originalText": "seeded",
+          "lemma": "seed",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 98,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "Northern",
+          "originalText": "Northern",
+          "lemma": "northern",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 107,
+          "pos": "NN",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "Iowa",
+          "originalText": "Iowa",
+          "lemma": "Iowa",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 112,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 114,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "75-72",
+          "originalText": "75-72",
+          "lemma": "75-72",
+          "characterOffsetBegin": 115,
+          "characterOffsetEnd": 120,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "75.0 - 72.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "win",
+          "originalText": "win",
+          "lemma": "win",
+          "characterOffsetBegin": 121,
+          "characterOffsetEnd": 124,
+          "pos": "VBP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "over",
+          "originalText": "over",
+          "lemma": "over",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 129,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "No.",
+          "originalText": "No.",
+          "lemma": "no.",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 133,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "6",
+          "originalText": "6",
+          "lemma": "6",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 135,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "6.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "seed",
+          "originalText": "seed",
+          "lemma": "seed",
+          "characterOffsetBegin": 136,
+          "characterOffsetEnd": 140,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "Texas",
+          "originalText": "Texas",
+          "lemma": "Texas",
+          "characterOffsetBegin": 141,
+          "characterOffsetEnd": 146,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "Friday",
+          "originalText": "Friday",
+          "lemma": "Friday",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 153,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-5",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-WXX-5"
+          }
+        },
+        {
+          "index": 32,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 154,
+          "characterOffsetEnd": 156,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 33,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 157,
+          "characterOffsetEnd": 160,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 34,
+          "word": "first",
+          "originalText": "first",
+          "lemma": "first",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 166,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "1.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 35,
+          "word": "round",
+          "originalText": "round",
+          "lemma": "round",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 172,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 36,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 175,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 37,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 176,
+          "characterOffsetEnd": 179,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 38,
+          "word": "NCAA",
+          "originalText": "NCAA",
+          "lemma": "NCAA",
+          "characterOffsetBegin": 180,
+          "characterOffsetEnd": 184,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 39,
+          "word": "Tournament",
+          "originalText": "Tournament",
+          "lemma": "Tournament",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 195,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 40,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 197,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 41,
+          "word": "West",
+          "originalText": "West",
+          "lemma": "West",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 202,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 42,
+          "word": "Region",
+          "originalText": "Region",
+          "lemma": "Region",
+          "characterOffsetBegin": 203,
+          "characterOffsetEnd": 209,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 43,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 209,
+          "characterOffsetEnd": 210,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": "\n\n"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S\n    (NP (JJ Northern) (NNP Iowa))\n    (VP (VBD passed)\n      (NP (DT the) (NN ball))\n      (PP (IN in)\n        (PP (IN under)\n          (NP (PRP$ its) (NN basket))))\n      (SBAR (IN after)\n        (S\n          (NP (NNP Isaiah) (NNP Taylor))\n          (VP (VBD tied)\n            (NP (DT the) (NN game))\n            (PP (IN on)\n              (NP\n                (NP (DT a) (NN layup))\n                (PP (IN with)\n                  (NP (CD 2.7) (NNS seconds)))))\n            (S\n              (VP (TO to)\n                (VP (VB play))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "passed"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "Iowa",
+          "dependent": 1,
+          "dependentGloss": "Northern"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 2,
+          "dependentGloss": "Iowa"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "ball",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 5,
+          "dependentGloss": "ball"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "basket",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "basket",
+          "dependent": 7,
+          "dependentGloss": "under"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "basket",
+          "dependent": 8,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 9,
+          "dependentGloss": "basket"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 10,
+          "dependentGloss": "after"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "Taylor",
+          "dependent": 11,
+          "dependentGloss": "Isaiah"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 12,
+          "dependentGloss": "Taylor"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 13,
+          "dependentGloss": "tied"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "game",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 15,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "layup",
+          "dependent": 16,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "layup",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 18,
+          "dependentGloss": "layup"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "seconds",
+          "dependent": 19,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "seconds",
+          "dependent": 20,
+          "dependentGloss": "2.7"
+        },
+        {
+          "dep": "nmod",
+          "governor": 18,
+          "governorGloss": "layup",
+          "dependent": 21,
+          "dependentGloss": "seconds"
+        },
+        {
+          "dep": "mark",
+          "governor": 23,
+          "governorGloss": "play",
+          "dependent": 22,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 23,
+          "dependentGloss": "play"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "passed"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "Iowa",
+          "dependent": 1,
+          "dependentGloss": "Northern"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 2,
+          "dependentGloss": "Iowa"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "ball",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 5,
+          "dependentGloss": "ball"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "basket",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "basket",
+          "dependent": 7,
+          "dependentGloss": "under"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "basket",
+          "dependent": 8,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod:under",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 9,
+          "dependentGloss": "basket"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 10,
+          "dependentGloss": "after"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "Taylor",
+          "dependent": 11,
+          "dependentGloss": "Isaiah"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 12,
+          "dependentGloss": "Taylor"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 13,
+          "dependentGloss": "tied"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "game",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 15,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "layup",
+          "dependent": 16,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "layup",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 18,
+          "dependentGloss": "layup"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "seconds",
+          "dependent": 19,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "seconds",
+          "dependent": 20,
+          "dependentGloss": "2.7"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 18,
+          "governorGloss": "layup",
+          "dependent": 21,
+          "dependentGloss": "seconds"
+        },
+        {
+          "dep": "mark",
+          "governor": 23,
+          "governorGloss": "play",
+          "dependent": 22,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 23,
+          "dependentGloss": "play"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 3,
+          "dependentGloss": "passed"
+        },
+        {
+          "dep": "amod",
+          "governor": 2,
+          "governorGloss": "Iowa",
+          "dependent": 1,
+          "dependentGloss": "Northern"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 2,
+          "dependentGloss": "Iowa"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "ball",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 5,
+          "dependentGloss": "ball"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "basket",
+          "dependent": 6,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "basket",
+          "dependent": 7,
+          "dependentGloss": "under"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 9,
+          "governorGloss": "basket",
+          "dependent": 8,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod:under",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 9,
+          "dependentGloss": "basket"
+        },
+        {
+          "dep": "mark",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 10,
+          "dependentGloss": "after"
+        },
+        {
+          "dep": "compound",
+          "governor": 12,
+          "governorGloss": "Taylor",
+          "dependent": 11,
+          "dependentGloss": "Isaiah"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 12,
+          "dependentGloss": "Taylor"
+        },
+        {
+          "dep": "advcl",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 13,
+          "dependentGloss": "tied"
+        },
+        {
+          "dep": "det",
+          "governor": 15,
+          "governorGloss": "game",
+          "dependent": 14,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 15,
+          "dependentGloss": "game"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "layup",
+          "dependent": 16,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "layup",
+          "dependent": 17,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 18,
+          "dependentGloss": "layup"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "seconds",
+          "dependent": 19,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nummod",
+          "governor": 21,
+          "governorGloss": "seconds",
+          "dependent": 20,
+          "dependentGloss": "2.7"
+        },
+        {
+          "dep": "nmod:with",
+          "governor": 18,
+          "governorGloss": "layup",
+          "dependent": 21,
+          "dependentGloss": "seconds"
+        },
+        {
+          "dep": "mark",
+          "governor": 23,
+          "governorGloss": "play",
+          "dependent": 22,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 13,
+          "governorGloss": "tied",
+          "dependent": 23,
+          "dependentGloss": "play"
+        },
+        {
+          "dep": "punct",
+          "governor": 3,
+          "governorGloss": "passed",
+          "dependent": 24,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "1",
+      "sentiment": "Negative",
+      "openie": [
+        {
+          "subject": "Northern Iowa",
+          "subjectSpan": [0, 2],
+          "relation": "passed ball in",
+          "relationSpan": [2, 3],
+          "object": "in its basket",
+          "objectSpan": [5, 9]
+        },
+        {
+          "subject": "Iowa",
+          "subjectSpan": [1, 2],
+          "relation": "passed",
+          "relationSpan": [2, 3],
+          "object": "ball",
+          "objectSpan": [4, 5]
+        },
+        {
+          "subject": "layup",
+          "subjectSpan": [17, 18],
+          "relation": "is with",
+          "relationSpan": [18, 19],
+          "object": "2.7 seconds",
+          "objectSpan": [19, 21]
+        },
+        {
+          "subject": "Isaiah Taylor",
+          "subjectSpan": [10, 12],
+          "relation": "tied game on",
+          "relationSpan": [12, 13],
+          "object": "layup with 2.7 seconds",
+          "objectSpan": [17, 21]
+        },
+        {
+          "subject": "Iowa",
+          "subjectSpan": [1, 2],
+          "relation": "passed ball in",
+          "relationSpan": [2, 3],
+          "object": "in its basket",
+          "objectSpan": [5, 9]
+        },
+        {
+          "subject": "Isaiah Taylor",
+          "subjectSpan": [10, 12],
+          "relation": "tied",
+          "relationSpan": [12, 13],
+          "object": "game",
+          "objectSpan": [14, 15]
+        },
+        {
+          "subject": "Isaiah Taylor",
+          "subjectSpan": [10, 12],
+          "relation": "tied game on",
+          "relationSpan": [12, 13],
+          "object": "layup",
+          "objectSpan": [17, 18]
+        },
+        {
+          "subject": "Northern Iowa",
+          "subjectSpan": [0, 2],
+          "relation": "passed",
+          "relationSpan": [2, 3],
+          "object": "ball",
+          "objectSpan": [4, 5]
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Northern",
+          "originalText": "Northern",
+          "lemma": "northern",
+          "characterOffsetBegin": 212,
+          "characterOffsetEnd": 220,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "\n\n",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Iowa",
+          "originalText": "Iowa",
+          "lemma": "Iowa",
+          "characterOffsetBegin": 221,
+          "characterOffsetEnd": 225,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "passed",
+          "originalText": "passed",
+          "lemma": "pass",
+          "characterOffsetBegin": 226,
+          "characterOffsetEnd": 232,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 233,
+          "characterOffsetEnd": 236,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "ball",
+          "originalText": "ball",
+          "lemma": "ball",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 241,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 242,
+          "characterOffsetEnd": 244,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "under",
+          "originalText": "under",
+          "lemma": "under",
+          "characterOffsetBegin": 245,
+          "characterOffsetEnd": 250,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "its",
+          "originalText": "its",
+          "lemma": "its",
+          "characterOffsetBegin": 251,
+          "characterOffsetEnd": 254,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "basket",
+          "originalText": "basket",
+          "lemma": "basket",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 261,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "after",
+          "originalText": "after",
+          "lemma": "after",
+          "characterOffsetBegin": 262,
+          "characterOffsetEnd": 267,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "Isaiah",
+          "originalText": "Isaiah",
+          "lemma": "Isaiah",
+          "characterOffsetBegin": 268,
+          "characterOffsetEnd": 274,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "Taylor",
+          "originalText": "Taylor",
+          "lemma": "Taylor",
+          "characterOffsetBegin": 275,
+          "characterOffsetEnd": 281,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "tied",
+          "originalText": "tied",
+          "lemma": "tie",
+          "characterOffsetBegin": 282,
+          "characterOffsetEnd": 286,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 287,
+          "characterOffsetEnd": 290,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "game",
+          "originalText": "game",
+          "lemma": "game",
+          "characterOffsetBegin": 291,
+          "characterOffsetEnd": 295,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 296,
+          "characterOffsetEnd": 298,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 299,
+          "characterOffsetEnd": 300,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "layup",
+          "originalText": "layup",
+          "lemma": "layup",
+          "characterOffsetBegin": 301,
+          "characterOffsetEnd": 306,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "with",
+          "originalText": "with",
+          "lemma": "with",
+          "characterOffsetBegin": 307,
+          "characterOffsetEnd": 311,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "2.7",
+          "originalText": "2.7",
+          "lemma": "2.7",
+          "characterOffsetBegin": 312,
+          "characterOffsetEnd": 315,
+          "pos": "CD",
+          "ner": "DURATION",
+          "normalizedNER": "PT2S",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "PT2S"
+          }
+        },
+        {
+          "index": 21,
+          "word": "seconds",
+          "originalText": "seconds",
+          "lemma": "seconds",
+          "characterOffsetBegin": 316,
+          "characterOffsetEnd": 323,
+          "pos": "NNS",
+          "ner": "DURATION",
+          "normalizedNER": "PT2S",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t2",
+            "type": "DURATION",
+            "value": "PT2S"
+          }
+        },
+        {
+          "index": 22,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 324,
+          "characterOffsetEnd": 326,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "play",
+          "originalText": "play",
+          "lemma": "play",
+          "characterOffsetBegin": 327,
+          "characterOffsetEnd": 331,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 24,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 331,
+          "characterOffsetEnd": 332,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (S\n    (NP (NNP Jesperson))\n    (VP\n      (VP (VBD caught)\n        (NP (DT the) (NN ball)))\n      (, ,)\n      (VP (VBD took)\n        (NP (DT a) (JJ few) (NNS dribbles)))\n      (CC and)\n      (VP (VBN heaved)))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "caught"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 1,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "ball",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 4,
+          "dependentGloss": "ball"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 6,
+          "dependentGloss": "took"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "dribbles",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "dribbles",
+          "dependent": 8,
+          "dependentGloss": "few"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 9,
+          "dependentGloss": "dribbles"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 11,
+          "dependentGloss": "heaved"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "caught"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 1,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "ball",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 4,
+          "dependentGloss": "ball"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 6,
+          "dependentGloss": "took"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "dribbles",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "dribbles",
+          "dependent": 8,
+          "dependentGloss": "few"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 9,
+          "dependentGloss": "dribbles"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 11,
+          "dependentGloss": "heaved"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "caught"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 1,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 1,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "heaved",
+          "dependent": 1,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "ball",
+          "dependent": 3,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 4,
+          "dependentGloss": "ball"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 6,
+          "dependentGloss": "took"
+        },
+        {
+          "dep": "det",
+          "governor": 9,
+          "governorGloss": "dribbles",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "dribbles",
+          "dependent": 8,
+          "dependentGloss": "few"
+        },
+        {
+          "dep": "dobj",
+          "governor": 6,
+          "governorGloss": "took",
+          "dependent": 9,
+          "dependentGloss": "dribbles"
+        },
+        {
+          "dep": "cc",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 10,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 11,
+          "dependentGloss": "heaved"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "caught",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "1",
+      "sentiment": "Negative",
+      "openie": [
+        {
+          "subject": "Jesperson",
+          "subjectSpan": [0, 1],
+          "relation": "took",
+          "relationSpan": [5, 6],
+          "object": "few dribbles",
+          "objectSpan": [7, 9]
+        },
+        {
+          "subject": "Jesperson",
+          "subjectSpan": [0, 1],
+          "relation": "caught",
+          "relationSpan": [1, 2],
+          "object": "ball",
+          "objectSpan": [3, 4]
+        },
+        {
+          "subject": "Jesperson",
+          "subjectSpan": [0, 1],
+          "relation": "took",
+          "relationSpan": [5, 6],
+          "object": "dribbles",
+          "objectSpan": [8, 9]
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Jesperson",
+          "originalText": "Jesperson",
+          "lemma": "Jesperson",
+          "characterOffsetBegin": 333,
+          "characterOffsetEnd": 342,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "caught",
+          "originalText": "caught",
+          "lemma": "catch",
+          "characterOffsetBegin": 343,
+          "characterOffsetEnd": 349,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 350,
+          "characterOffsetEnd": 353,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "ball",
+          "originalText": "ball",
+          "lemma": "ball",
+          "characterOffsetBegin": 354,
+          "characterOffsetEnd": 358,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 358,
+          "characterOffsetEnd": 359,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "took",
+          "originalText": "took",
+          "lemma": "take",
+          "characterOffsetBegin": 360,
+          "characterOffsetEnd": 364,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 365,
+          "characterOffsetEnd": 366,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "few",
+          "originalText": "few",
+          "lemma": "few",
+          "characterOffsetBegin": 367,
+          "characterOffsetEnd": 370,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "dribbles",
+          "originalText": "dribbles",
+          "lemma": "dribble",
+          "characterOffsetBegin": 371,
+          "characterOffsetEnd": 379,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 380,
+          "characterOffsetEnd": 383,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "heaved",
+          "originalText": "heaved",
+          "lemma": "heave",
+          "characterOffsetBegin": 384,
+          "characterOffsetEnd": 390,
+          "pos": "VBN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 390,
+          "characterOffsetEnd": 391,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": "\n\n"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (NNP Wes) (NNP Washpun))\n      (VP (VBD scored)\n        (NP (CD 17) (NNS points))))\n    (, ,)\n    (NP (NNP Jeremy) (NNP Morgan))\n    (VP (VBD scored)\n      (SBAR\n        (S\n          (NP\n            (NP (CD 16))\n            (CC and)\n            (NP (NNP Jesperson)))\n          (VP (VBD added)\n            (NP (CD 14))\n            (PP (IN for)\n              (NP\n                (NP\n                  (NP (DT the) (NNPS Panthers))\n                  (PRN (-LRB- -LRB-)\n                    (NP (CD 23-12))\n                    (-RRB- -RRB-)))\n                (, ,)\n                (SBAR\n                  (WHNP (WP who))\n                  (S\n                    (VP (VBD claimed)\n                      (NP (PRP$ their) (JJ fifth) (NNP NCAA) (NNP Tournament))\n                      (S\n                        (VP (VB win)\n                          (PP (IN in)\n                            (NP (NN school) (NN history))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Washpun",
+          "dependent": 1,
+          "dependentGloss": "Wes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 2,
+          "dependentGloss": "Washpun"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 3,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "points",
+          "dependent": 4,
+          "dependentGloss": "17"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 5,
+          "dependentGloss": "points"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Morgan",
+          "dependent": 7,
+          "dependentGloss": "Jeremy"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 8,
+          "dependentGloss": "Morgan"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 10,
+          "dependentGloss": "16"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "16",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj",
+          "governor": 10,
+          "governorGloss": "16",
+          "dependent": 12,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 13,
+          "dependentGloss": "added"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 14,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 17,
+          "dependentGloss": "Panthers"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "23-12",
+          "dependent": 18,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 19,
+          "dependentGloss": "23-12"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "23-12",
+          "dependent": 20,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 21,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 23,
+          "governorGloss": "claimed",
+          "dependent": 22,
+          "dependentGloss": "who"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 23,
+          "dependentGloss": "claimed"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 27,
+          "governorGloss": "Tournament",
+          "dependent": 24,
+          "dependentGloss": "their"
+        },
+        {
+          "dep": "amod",
+          "governor": 27,
+          "governorGloss": "Tournament",
+          "dependent": 25,
+          "dependentGloss": "fifth"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "Tournament",
+          "dependent": 26,
+          "dependentGloss": "NCAA"
+        },
+        {
+          "dep": "dobj",
+          "governor": 23,
+          "governorGloss": "claimed",
+          "dependent": 27,
+          "dependentGloss": "Tournament"
+        },
+        {
+          "dep": "dep",
+          "governor": 23,
+          "governorGloss": "claimed",
+          "dependent": 28,
+          "dependentGloss": "win"
+        },
+        {
+          "dep": "case",
+          "governor": 31,
+          "governorGloss": "history",
+          "dependent": 29,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 31,
+          "governorGloss": "history",
+          "dependent": 30,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "nmod",
+          "governor": 28,
+          "governorGloss": "win",
+          "dependent": 31,
+          "dependentGloss": "history"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 32,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Washpun",
+          "dependent": 1,
+          "dependentGloss": "Wes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 2,
+          "dependentGloss": "Washpun"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 3,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "points",
+          "dependent": 4,
+          "dependentGloss": "17"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 5,
+          "dependentGloss": "points"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Morgan",
+          "dependent": 7,
+          "dependentGloss": "Jeremy"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 8,
+          "dependentGloss": "Morgan"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 10,
+          "dependentGloss": "16"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "16",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "16",
+          "dependent": 12,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 13,
+          "dependentGloss": "added"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 14,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 17,
+          "dependentGloss": "Panthers"
+        },
+        {
+          "dep": "appos",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 19,
+          "dependentGloss": "23-12"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 23,
+          "governorGloss": "claimed",
+          "dependent": 22,
+          "dependentGloss": "who"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 23,
+          "dependentGloss": "claimed"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 27,
+          "governorGloss": "Tournament",
+          "dependent": 24,
+          "dependentGloss": "their"
+        },
+        {
+          "dep": "amod",
+          "governor": 27,
+          "governorGloss": "Tournament",
+          "dependent": 25,
+          "dependentGloss": "fifth"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "Tournament",
+          "dependent": 26,
+          "dependentGloss": "NCAA"
+        },
+        {
+          "dep": "dobj",
+          "governor": 23,
+          "governorGloss": "claimed",
+          "dependent": 27,
+          "dependentGloss": "Tournament"
+        },
+        {
+          "dep": "dep",
+          "governor": 23,
+          "governorGloss": "claimed",
+          "dependent": 28,
+          "dependentGloss": "win"
+        },
+        {
+          "dep": "case",
+          "governor": 31,
+          "governorGloss": "history",
+          "dependent": 29,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 31,
+          "governorGloss": "history",
+          "dependent": 30,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 28,
+          "governorGloss": "win",
+          "dependent": 31,
+          "dependentGloss": "history"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "compound",
+          "governor": 2,
+          "governorGloss": "Washpun",
+          "dependent": 1,
+          "dependentGloss": "Wes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 2,
+          "dependentGloss": "Washpun"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 3,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "nummod",
+          "governor": 5,
+          "governorGloss": "points",
+          "dependent": 4,
+          "dependentGloss": "17"
+        },
+        {
+          "dep": "dobj",
+          "governor": 3,
+          "governorGloss": "scored",
+          "dependent": 5,
+          "dependentGloss": "points"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 6,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Morgan",
+          "dependent": 7,
+          "dependentGloss": "Jeremy"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 8,
+          "dependentGloss": "Morgan"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 10,
+          "dependentGloss": "16"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "16",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "16",
+          "dependent": 12,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 12,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 13,
+          "dependentGloss": "added"
+        },
+        {
+          "dep": "dobj",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 14,
+          "dependentGloss": "14"
+        },
+        {
+          "dep": "case",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 15,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 13,
+          "governorGloss": "added",
+          "dependent": 17,
+          "dependentGloss": "Panthers"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "23-12",
+          "dependent": 18,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 19,
+          "dependentGloss": "23-12"
+        },
+        {
+          "dep": "punct",
+          "governor": 19,
+          "governorGloss": "23-12",
+          "dependent": 20,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 21,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 23,
+          "governorGloss": "claimed",
+          "dependent": 22,
+          "dependentGloss": "who"
+        },
+        {
+          "dep": "acl:relcl",
+          "governor": 17,
+          "governorGloss": "Panthers",
+          "dependent": 23,
+          "dependentGloss": "claimed"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 27,
+          "governorGloss": "Tournament",
+          "dependent": 24,
+          "dependentGloss": "their"
+        },
+        {
+          "dep": "amod",
+          "governor": 27,
+          "governorGloss": "Tournament",
+          "dependent": 25,
+          "dependentGloss": "fifth"
+        },
+        {
+          "dep": "compound",
+          "governor": 27,
+          "governorGloss": "Tournament",
+          "dependent": 26,
+          "dependentGloss": "NCAA"
+        },
+        {
+          "dep": "dobj",
+          "governor": 23,
+          "governorGloss": "claimed",
+          "dependent": 27,
+          "dependentGloss": "Tournament"
+        },
+        {
+          "dep": "dep",
+          "governor": 23,
+          "governorGloss": "claimed",
+          "dependent": 28,
+          "dependentGloss": "win"
+        },
+        {
+          "dep": "case",
+          "governor": 31,
+          "governorGloss": "history",
+          "dependent": 29,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "compound",
+          "governor": 31,
+          "governorGloss": "history",
+          "dependent": 30,
+          "dependentGloss": "school"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 28,
+          "governorGloss": "win",
+          "dependent": 31,
+          "dependentGloss": "history"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 32,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "1",
+      "sentiment": "Negative",
+      "openie": [
+        {
+          "subject": "16",
+          "subjectSpan": [9, 10],
+          "relation": "added",
+          "relationSpan": [12, 13],
+          "object": "Jesperson",
+          "objectSpan": [11, 12]
+        },
+        {
+          "subject": "Wes Washpun",
+          "subjectSpan": [0, 2],
+          "relation": "scored",
+          "relationSpan": [2, 3],
+          "object": "17 points",
+          "objectSpan": [3, 5]
+        },
+        {
+          "subject": "16",
+          "subjectSpan": [9, 10],
+          "relation": "added",
+          "relationSpan": [12, 13],
+          "object": "Jesperson",
+          "objectSpan": [11, 12]
+        },
+        {
+          "subject": "NCAA Tournament",
+          "subjectSpan": [25, 27],
+          "relation": "is",
+          "relationSpan": [24, 25],
+          "object": "fifth",
+          "objectSpan": [24, 25]
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Wes",
+          "originalText": "Wes",
+          "lemma": "Wes",
+          "characterOffsetBegin": 393,
+          "characterOffsetEnd": 396,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "\n\n",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Washpun",
+          "originalText": "Washpun",
+          "lemma": "Washpun",
+          "characterOffsetBegin": 397,
+          "characterOffsetEnd": 404,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "scored",
+          "originalText": "scored",
+          "lemma": "score",
+          "characterOffsetBegin": 405,
+          "characterOffsetEnd": 411,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "17",
+          "originalText": "17",
+          "lemma": "17",
+          "characterOffsetBegin": 412,
+          "characterOffsetEnd": 414,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "17.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "points",
+          "originalText": "points",
+          "lemma": "point",
+          "characterOffsetBegin": 415,
+          "characterOffsetEnd": 421,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 6,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 421,
+          "characterOffsetEnd": 422,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Jeremy",
+          "originalText": "Jeremy",
+          "lemma": "Jeremy",
+          "characterOffsetBegin": 423,
+          "characterOffsetEnd": 429,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Morgan",
+          "originalText": "Morgan",
+          "lemma": "Morgan",
+          "characterOffsetBegin": 430,
+          "characterOffsetEnd": 436,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "scored",
+          "originalText": "scored",
+          "lemma": "score",
+          "characterOffsetBegin": 437,
+          "characterOffsetEnd": 443,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "16",
+          "originalText": "16",
+          "lemma": "16",
+          "characterOffsetBegin": 444,
+          "characterOffsetEnd": 446,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "16.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 447,
+          "characterOffsetEnd": 450,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "Jesperson",
+          "originalText": "Jesperson",
+          "lemma": "Jesperson",
+          "characterOffsetBegin": 451,
+          "characterOffsetEnd": 460,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "added",
+          "originalText": "added",
+          "lemma": "add",
+          "characterOffsetBegin": 461,
+          "characterOffsetEnd": 466,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "14",
+          "originalText": "14",
+          "lemma": "14",
+          "characterOffsetBegin": 467,
+          "characterOffsetEnd": 469,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "14.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 470,
+          "characterOffsetEnd": 473,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 474,
+          "characterOffsetEnd": 477,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "Panthers",
+          "originalText": "Panthers",
+          "lemma": "Panthers",
+          "characterOffsetBegin": 478,
+          "characterOffsetEnd": 486,
+          "pos": "NNPS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "-LRB-",
+          "originalText": "(",
+          "lemma": "-lrb-",
+          "characterOffsetBegin": 487,
+          "characterOffsetEnd": 488,
+          "pos": "-LRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 19,
+          "word": "23-12",
+          "originalText": "23-12",
+          "lemma": "23-12",
+          "characterOffsetBegin": 488,
+          "characterOffsetEnd": 493,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "23.0 - 12.0",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": "-RRB-",
+          "originalText": ")",
+          "lemma": "-rrb-",
+          "characterOffsetBegin": 493,
+          "characterOffsetEnd": 494,
+          "pos": "-RRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 494,
+          "characterOffsetEnd": 495,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "who",
+          "originalText": "who",
+          "lemma": "who",
+          "characterOffsetBegin": 496,
+          "characterOffsetEnd": 499,
+          "pos": "WP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "claimed",
+          "originalText": "claimed",
+          "lemma": "claim",
+          "characterOffsetBegin": 500,
+          "characterOffsetEnd": 507,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "their",
+          "originalText": "their",
+          "lemma": "they",
+          "characterOffsetBegin": 508,
+          "characterOffsetEnd": 513,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "fifth",
+          "originalText": "fifth",
+          "lemma": "fifth",
+          "characterOffsetBegin": 514,
+          "characterOffsetEnd": 519,
+          "pos": "JJ",
+          "ner": "ORDINAL",
+          "normalizedNER": "5.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "NCAA",
+          "originalText": "NCAA",
+          "lemma": "NCAA",
+          "characterOffsetBegin": 520,
+          "characterOffsetEnd": 524,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "Tournament",
+          "originalText": "Tournament",
+          "lemma": "Tournament",
+          "characterOffsetBegin": 525,
+          "characterOffsetEnd": 535,
+          "pos": "NNP",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "win",
+          "originalText": "win",
+          "lemma": "win",
+          "characterOffsetBegin": 536,
+          "characterOffsetEnd": 539,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 540,
+          "characterOffsetEnd": 542,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "school",
+          "originalText": "school",
+          "lemma": "school",
+          "characterOffsetBegin": 543,
+          "characterOffsetEnd": 549,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "history",
+          "originalText": "history",
+          "lemma": "history",
+          "characterOffsetBegin": 550,
+          "characterOffsetEnd": 557,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 32,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 557,
+          "characterOffsetEnd": 558,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": "\n\n"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "parse": "(ROOT\n  (S\n    (S\n      (NP (NNP Taylor))\n      (VP (VBD scored)\n        (NP (CD 22) (NNS points))))\n    (, ,)\n    (NP (NNP Eric) (NNP Davis) (NNP Jr.))\n    (VP (VBD scored)\n      (SBAR\n        (S\n          (NP\n            (NP (CD 13))\n            (CC and)\n            (NP (NNP Javan) (NNP Felix)))\n          (VP (VBD added)\n            (NP (CD 12))\n            (PP (IN for)\n              (NP\n                (NP (DT the) (NNPS Longhorns))\n                (PRN (-LRB- -LRB-)\n                  (NP (CD 20-13))\n                  (-RRB- -RRB-))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "scored",
+          "dependent": 1,
+          "dependentGloss": "Taylor"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 2,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "points",
+          "dependent": 3,
+          "dependentGloss": "22"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "scored",
+          "dependent": 4,
+          "dependentGloss": "points"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Jr.",
+          "dependent": 6,
+          "dependentGloss": "Eric"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Jr.",
+          "dependent": 7,
+          "dependentGloss": "Davis"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 8,
+          "dependentGloss": "Jr."
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 10,
+          "dependentGloss": "13"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "13",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "Felix",
+          "dependent": 12,
+          "dependentGloss": "Javan"
+        },
+        {
+          "dep": "conj",
+          "governor": 10,
+          "governorGloss": "13",
+          "dependent": 13,
+          "dependentGloss": "Felix"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 14,
+          "dependentGloss": "added"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 15,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "Longhorns",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "Longhorns",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 18,
+          "dependentGloss": "Longhorns"
+        },
+        {
+          "dep": "punct",
+          "governor": 20,
+          "governorGloss": "20-13",
+          "dependent": 19,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 18,
+          "governorGloss": "Longhorns",
+          "dependent": 20,
+          "dependentGloss": "20-13"
+        },
+        {
+          "dep": "punct",
+          "governor": 20,
+          "governorGloss": "20-13",
+          "dependent": 21,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "scored",
+          "dependent": 1,
+          "dependentGloss": "Taylor"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 2,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "points",
+          "dependent": 3,
+          "dependentGloss": "22"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "scored",
+          "dependent": 4,
+          "dependentGloss": "points"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Jr.",
+          "dependent": 6,
+          "dependentGloss": "Eric"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Jr.",
+          "dependent": 7,
+          "dependentGloss": "Davis"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 8,
+          "dependentGloss": "Jr."
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 10,
+          "dependentGloss": "13"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "13",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "Felix",
+          "dependent": 12,
+          "dependentGloss": "Javan"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "13",
+          "dependent": 13,
+          "dependentGloss": "Felix"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 14,
+          "dependentGloss": "added"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 15,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "Longhorns",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "Longhorns",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 18,
+          "dependentGloss": "Longhorns"
+        },
+        {
+          "dep": "appos",
+          "governor": 18,
+          "governorGloss": "Longhorns",
+          "dependent": 20,
+          "dependentGloss": "20-13"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 9,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "scored",
+          "dependent": 1,
+          "dependentGloss": "Taylor"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 2,
+          "dependentGloss": "scored"
+        },
+        {
+          "dep": "nummod",
+          "governor": 4,
+          "governorGloss": "points",
+          "dependent": 3,
+          "dependentGloss": "22"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "scored",
+          "dependent": 4,
+          "dependentGloss": "points"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Jr.",
+          "dependent": 6,
+          "dependentGloss": "Eric"
+        },
+        {
+          "dep": "compound",
+          "governor": 8,
+          "governorGloss": "Jr.",
+          "dependent": 7,
+          "dependentGloss": "Davis"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 8,
+          "dependentGloss": "Jr."
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 10,
+          "dependentGloss": "13"
+        },
+        {
+          "dep": "cc",
+          "governor": 10,
+          "governorGloss": "13",
+          "dependent": 11,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "compound",
+          "governor": 13,
+          "governorGloss": "Felix",
+          "dependent": 12,
+          "dependentGloss": "Javan"
+        },
+        {
+          "dep": "conj:and",
+          "governor": 10,
+          "governorGloss": "13",
+          "dependent": 13,
+          "dependentGloss": "Felix"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 13,
+          "dependentGloss": "Felix"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 14,
+          "dependentGloss": "added"
+        },
+        {
+          "dep": "dobj",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 15,
+          "dependentGloss": "12"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "Longhorns",
+          "dependent": 16,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "Longhorns",
+          "dependent": 17,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 14,
+          "governorGloss": "added",
+          "dependent": 18,
+          "dependentGloss": "Longhorns"
+        },
+        {
+          "dep": "punct",
+          "governor": 20,
+          "governorGloss": "20-13",
+          "dependent": 19,
+          "dependentGloss": "-LRB-"
+        },
+        {
+          "dep": "appos",
+          "governor": 18,
+          "governorGloss": "Longhorns",
+          "dependent": 20,
+          "dependentGloss": "20-13"
+        },
+        {
+          "dep": "punct",
+          "governor": 20,
+          "governorGloss": "20-13",
+          "dependent": 21,
+          "dependentGloss": "-RRB-"
+        },
+        {
+          "dep": "punct",
+          "governor": 9,
+          "governorGloss": "scored",
+          "dependent": 22,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "1",
+      "sentiment": "Negative",
+      "openie": [
+        {
+          "subject": "13",
+          "subjectSpan": [9, 10],
+          "relation": "added",
+          "relationSpan": [13, 14],
+          "object": "Javan Felix",
+          "objectSpan": [11, 13]
+        },
+        {
+          "subject": "13",
+          "subjectSpan": [9, 10],
+          "relation": "added",
+          "relationSpan": [13, 14],
+          "object": "Javan Felix",
+          "objectSpan": [11, 13]
+        },
+        {
+          "subject": "Taylor",
+          "subjectSpan": [0, 1],
+          "relation": "scored",
+          "relationSpan": [1, 2],
+          "object": "22 points",
+          "objectSpan": [2, 4]
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Taylor",
+          "originalText": "Taylor",
+          "lemma": "Taylor",
+          "characterOffsetBegin": 560,
+          "characterOffsetEnd": 566,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "\n\n",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "scored",
+          "originalText": "scored",
+          "lemma": "score",
+          "characterOffsetBegin": 567,
+          "characterOffsetEnd": 573,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "22",
+          "originalText": "22",
+          "lemma": "22",
+          "characterOffsetBegin": 574,
+          "characterOffsetEnd": 576,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "22.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "points",
+          "originalText": "points",
+          "lemma": "point",
+          "characterOffsetBegin": 577,
+          "characterOffsetEnd": 583,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 583,
+          "characterOffsetEnd": 584,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Eric",
+          "originalText": "Eric",
+          "lemma": "Eric",
+          "characterOffsetBegin": 585,
+          "characterOffsetEnd": 589,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Davis",
+          "originalText": "Davis",
+          "lemma": "Davis",
+          "characterOffsetBegin": 590,
+          "characterOffsetEnd": 595,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Jr.",
+          "originalText": "Jr.",
+          "lemma": "Jr.",
+          "characterOffsetBegin": 596,
+          "characterOffsetEnd": 599,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "scored",
+          "originalText": "scored",
+          "lemma": "score",
+          "characterOffsetBegin": 600,
+          "characterOffsetEnd": 606,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "13",
+          "originalText": "13",
+          "lemma": "13",
+          "characterOffsetBegin": 607,
+          "characterOffsetEnd": 609,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "13.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 610,
+          "characterOffsetEnd": 613,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "Javan",
+          "originalText": "Javan",
+          "lemma": "Javan",
+          "characterOffsetBegin": 614,
+          "characterOffsetEnd": 619,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "Felix",
+          "originalText": "Felix",
+          "lemma": "Felix",
+          "characterOffsetBegin": 620,
+          "characterOffsetEnd": 625,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "added",
+          "originalText": "added",
+          "lemma": "add",
+          "characterOffsetBegin": 626,
+          "characterOffsetEnd": 631,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "12",
+          "originalText": "12",
+          "lemma": "12",
+          "characterOffsetBegin": 632,
+          "characterOffsetEnd": 634,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "12.0",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 635,
+          "characterOffsetEnd": 638,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 639,
+          "characterOffsetEnd": 642,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "Longhorns",
+          "originalText": "Longhorns",
+          "lemma": "Longhorns",
+          "characterOffsetBegin": 643,
+          "characterOffsetEnd": 652,
+          "pos": "NNPS",
+          "ner": "ORGANIZATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "-LRB-",
+          "originalText": "(",
+          "lemma": "-lrb-",
+          "characterOffsetBegin": 653,
+          "characterOffsetEnd": 654,
+          "pos": "-LRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 20,
+          "word": "20-13",
+          "originalText": "20-13",
+          "lemma": "20-13",
+          "characterOffsetBegin": 654,
+          "characterOffsetEnd": 659,
+          "pos": "CD",
+          "ner": "NUMBER",
+          "normalizedNER": "20.0 - 13.0",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 21,
+          "word": "-RRB-",
+          "originalText": ")",
+          "lemma": "-rrb-",
+          "characterOffsetBegin": 659,
+          "characterOffsetEnd": 660,
+          "pos": "-RRB-",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 22,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 660,
+          "characterOffsetEnd": 661,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": "\n\n"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (NNP Jesperson) (POS 's))\n      (NN shot))\n    (VP (VBD came)\n      (PP (IN in)\n        (NP (DT the) (JJ same) (NN building)))\n      (SBAR\n        (WHADVP (WRB where))\n        (S\n          (NP\n            (NP (NNP Golden) (NNP State) (POS 's))\n            (NNP Stephen) (NNP Curry))\n          (VP (VBD hit)\n            (NP (DT a) (JJ dramatic) (NN game-winner))\n            (PP (IN against)\n              (NP (DT the) (NNP Oklahoma) (NNP City) (NNP Thunder)))\n            (NP-TMP (JJ last) (NN month))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "came"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "shot",
+          "dependent": 1,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Jesperson",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 3,
+          "dependentGloss": "shot"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "building",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "building",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "building",
+          "dependent": 7,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 8,
+          "dependentGloss": "building"
+        },
+        {
+          "dep": "advmod",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 9,
+          "dependentGloss": "where"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "State",
+          "dependent": 10,
+          "dependentGloss": "Golden"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "Curry",
+          "dependent": 11,
+          "dependentGloss": "State"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "State",
+          "dependent": 12,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "Curry",
+          "dependent": 13,
+          "dependentGloss": "Stephen"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 14,
+          "dependentGloss": "Curry"
+        },
+        {
+          "dep": "advcl",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 15,
+          "dependentGloss": "hit"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "game-winner",
+          "dependent": 16,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "game-winner",
+          "dependent": 17,
+          "dependentGloss": "dramatic"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 18,
+          "dependentGloss": "game-winner"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 19,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 21,
+          "dependentGloss": "Oklahoma"
+        },
+        {
+          "dep": "compound",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 22,
+          "dependentGloss": "City"
+        },
+        {
+          "dep": "nmod",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 23,
+          "dependentGloss": "Thunder"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "month",
+          "dependent": 24,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 25,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "came"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "shot",
+          "dependent": 1,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Jesperson",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 3,
+          "dependentGloss": "shot"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "building",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "building",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "building",
+          "dependent": 7,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 8,
+          "dependentGloss": "building"
+        },
+        {
+          "dep": "advmod",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 9,
+          "dependentGloss": "where"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "State",
+          "dependent": 10,
+          "dependentGloss": "Golden"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "Curry",
+          "dependent": 11,
+          "dependentGloss": "State"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "State",
+          "dependent": 12,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "Curry",
+          "dependent": 13,
+          "dependentGloss": "Stephen"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 14,
+          "dependentGloss": "Curry"
+        },
+        {
+          "dep": "advcl",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 15,
+          "dependentGloss": "hit"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "game-winner",
+          "dependent": 16,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "game-winner",
+          "dependent": 17,
+          "dependentGloss": "dramatic"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 18,
+          "dependentGloss": "game-winner"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 19,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 21,
+          "dependentGloss": "Oklahoma"
+        },
+        {
+          "dep": "compound",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 22,
+          "dependentGloss": "City"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 23,
+          "dependentGloss": "Thunder"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "month",
+          "dependent": 24,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 25,
+          "dependentGloss": "month"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "came"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 3,
+          "governorGloss": "shot",
+          "dependent": 1,
+          "dependentGloss": "Jesperson"
+        },
+        {
+          "dep": "case",
+          "governor": 1,
+          "governorGloss": "Jesperson",
+          "dependent": 2,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 3,
+          "dependentGloss": "shot"
+        },
+        {
+          "dep": "case",
+          "governor": 8,
+          "governorGloss": "building",
+          "dependent": 5,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "building",
+          "dependent": 6,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 8,
+          "governorGloss": "building",
+          "dependent": 7,
+          "dependentGloss": "same"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 8,
+          "dependentGloss": "building"
+        },
+        {
+          "dep": "advmod",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 9,
+          "dependentGloss": "where"
+        },
+        {
+          "dep": "compound",
+          "governor": 11,
+          "governorGloss": "State",
+          "dependent": 10,
+          "dependentGloss": "Golden"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 14,
+          "governorGloss": "Curry",
+          "dependent": 11,
+          "dependentGloss": "State"
+        },
+        {
+          "dep": "case",
+          "governor": 11,
+          "governorGloss": "State",
+          "dependent": 12,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "Curry",
+          "dependent": 13,
+          "dependentGloss": "Stephen"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 14,
+          "dependentGloss": "Curry"
+        },
+        {
+          "dep": "advcl",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 15,
+          "dependentGloss": "hit"
+        },
+        {
+          "dep": "det",
+          "governor": 18,
+          "governorGloss": "game-winner",
+          "dependent": 16,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 18,
+          "governorGloss": "game-winner",
+          "dependent": 17,
+          "dependentGloss": "dramatic"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 18,
+          "dependentGloss": "game-winner"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 19,
+          "dependentGloss": "against"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 20,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 21,
+          "dependentGloss": "Oklahoma"
+        },
+        {
+          "dep": "compound",
+          "governor": 23,
+          "governorGloss": "Thunder",
+          "dependent": 22,
+          "dependentGloss": "City"
+        },
+        {
+          "dep": "nmod:against",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 23,
+          "dependentGloss": "Thunder"
+        },
+        {
+          "dep": "amod",
+          "governor": 25,
+          "governorGloss": "month",
+          "dependent": 24,
+          "dependentGloss": "last"
+        },
+        {
+          "dep": "nmod:tmod",
+          "governor": 15,
+          "governorGloss": "hit",
+          "dependent": 25,
+          "dependentGloss": "month"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "came",
+          "dependent": 26,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "1",
+      "sentiment": "Negative",
+      "openie": [
+        {
+          "subject": "Jesperson 's shot",
+          "subjectSpan": [0, 3],
+          "relation": "came in",
+          "relationSpan": [3, 5],
+          "object": "same building",
+          "objectSpan": [6, 8]
+        },
+        {
+          "subject": "Jesperson 's shot",
+          "subjectSpan": [0, 3],
+          "relation": "came in",
+          "relationSpan": [3, 5],
+          "object": "building",
+          "objectSpan": [7, 8]
+        },
+        {
+          "subject": "Jesperson",
+          "subjectSpan": [0, 1],
+          "relation": "has",
+          "relationSpan": [1, 2],
+          "object": "shot",
+          "objectSpan": [2, 3]
+        },
+        {
+          "subject": "Golden State 's Stephen Curry",
+          "subjectSpan": [9, 14],
+          "relation": "hit",
+          "relationSpan": [14, 15],
+          "object": "game-winner",
+          "objectSpan": [17, 18]
+        },
+        {
+          "subject": "Golden State",
+          "subjectSpan": [9, 11],
+          "relation": "has",
+          "relationSpan": [11, 12],
+          "object": "Stephen Curry",
+          "objectSpan": [12, 14]
+        },
+        {
+          "subject": "Golden State 's Stephen Curry",
+          "subjectSpan": [9, 14],
+          "relation": "hit game-winner at_time",
+          "relationSpan": [14, 15],
+          "object": "last month",
+          "objectSpan": [23, 25]
+        },
+        {
+          "subject": "Golden State 's Stephen Curry",
+          "subjectSpan": [9, 14],
+          "relation": "hit game-winner against",
+          "relationSpan": [14, 15],
+          "object": "Oklahoma City Thunder",
+          "objectSpan": [20, 23]
+        },
+        {
+          "subject": "Golden State 's Stephen Curry",
+          "subjectSpan": [9, 14],
+          "relation": "hit",
+          "relationSpan": [14, 15],
+          "object": "dramatic game-winner",
+          "objectSpan": [16, 18]
+        },
+        {
+          "subject": "Golden State 's Stephen Curry",
+          "subjectSpan": [9, 14],
+          "relation": "hit game-winner at_time",
+          "relationSpan": [14, 15],
+          "object": "month",
+          "objectSpan": [24, 25]
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "Jesperson",
+          "originalText": "Jesperson",
+          "lemma": "Jesperson",
+          "characterOffsetBegin": 663,
+          "characterOffsetEnd": 672,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": "\n\n",
+          "after": ""
+        },
+        {
+          "index": 2,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 672,
+          "characterOffsetEnd": 674,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "shot",
+          "originalText": "shot",
+          "lemma": "shot",
+          "characterOffsetBegin": 675,
+          "characterOffsetEnd": 679,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "came",
+          "originalText": "came",
+          "lemma": "come",
+          "characterOffsetBegin": 680,
+          "characterOffsetEnd": 684,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 685,
+          "characterOffsetEnd": 687,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 688,
+          "characterOffsetEnd": 691,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "same",
+          "originalText": "same",
+          "lemma": "same",
+          "characterOffsetBegin": 692,
+          "characterOffsetEnd": 696,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "building",
+          "originalText": "building",
+          "lemma": "building",
+          "characterOffsetBegin": 697,
+          "characterOffsetEnd": 705,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "where",
+          "originalText": "where",
+          "lemma": "where",
+          "characterOffsetBegin": 706,
+          "characterOffsetEnd": 711,
+          "pos": "WRB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "Golden",
+          "originalText": "Golden",
+          "lemma": "Golden",
+          "characterOffsetBegin": 712,
+          "characterOffsetEnd": 718,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "State",
+          "originalText": "State",
+          "lemma": "State",
+          "characterOffsetBegin": 719,
+          "characterOffsetEnd": 724,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": "'s",
+          "originalText": "'s",
+          "lemma": "'s",
+          "characterOffsetBegin": 724,
+          "characterOffsetEnd": 726,
+          "pos": "POS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "Stephen",
+          "originalText": "Stephen",
+          "lemma": "Stephen",
+          "characterOffsetBegin": 727,
+          "characterOffsetEnd": 734,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "Curry",
+          "originalText": "Curry",
+          "lemma": "Curry",
+          "characterOffsetBegin": 735,
+          "characterOffsetEnd": 740,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "hit",
+          "originalText": "hit",
+          "lemma": "hit",
+          "characterOffsetBegin": 741,
+          "characterOffsetEnd": 744,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 745,
+          "characterOffsetEnd": 746,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "dramatic",
+          "originalText": "dramatic",
+          "lemma": "dramatic",
+          "characterOffsetBegin": 747,
+          "characterOffsetEnd": 755,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "game-winner",
+          "originalText": "game-winner",
+          "lemma": "game-winner",
+          "characterOffsetBegin": 756,
+          "characterOffsetEnd": 767,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "against",
+          "originalText": "against",
+          "lemma": "against",
+          "characterOffsetBegin": 768,
+          "characterOffsetEnd": 775,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 776,
+          "characterOffsetEnd": 779,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "Oklahoma",
+          "originalText": "Oklahoma",
+          "lemma": "Oklahoma",
+          "characterOffsetBegin": 780,
+          "characterOffsetEnd": 788,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "City",
+          "originalText": "City",
+          "lemma": "City",
+          "characterOffsetBegin": 789,
+          "characterOffsetEnd": 793,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "Thunder",
+          "originalText": "Thunder",
+          "lemma": "Thunder",
+          "characterOffsetBegin": 794,
+          "characterOffsetEnd": 801,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "last",
+          "originalText": "last",
+          "lemma": "last",
+          "characterOffsetBegin": 802,
+          "characterOffsetEnd": 806,
+          "pos": "JJ",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1M OFFSET P-1M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t3",
+            "type": "DATE",
+            "altValue": "THIS P1M OFFSET P-1M"
+          }
+        },
+        {
+          "index": 25,
+          "word": "month",
+          "originalText": "month",
+          "lemma": "month",
+          "characterOffsetBegin": 807,
+          "characterOffsetEnd": 812,
+          "pos": "NN",
+          "ner": "DATE",
+          "normalizedNER": "THIS P1M OFFSET P-1M",
+          "speaker": "PER0",
+          "before": " ",
+          "after": "",
+          "timex": {
+            "tid": "t3",
+            "type": "DATE",
+            "altValue": "THIS P1M OFFSET P-1M"
+          }
+        },
+        {
+          "index": 26,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 812,
+          "characterOffsetEnd": 813,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": "\n\n"
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "AP",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Paul Jesperson",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 27,
+        "text": "Jesperson",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 3,
+        "position": [
+          3,
+          1
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 34,
+        "text": "Jesperson",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 13,
+        "sentNum": 4,
+        "position": [
+          4,
+          7
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 55,
+        "text": "Jesperson's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 6,
+        "position": [
+          6,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Northern Iowa",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 23,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": false
+      },
+      {
+        "id": 20,
+        "text": "Northern Iowa",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 23,
+        "text": "its",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 9,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "6",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 28,
+        "endIndex": 29,
+        "sentNum": 1,
+        "position": [
+          1,
+          11
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Texas",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 30,
+        "endIndex": 31,
+        "sentNum": 1,
+        "position": [
+          1,
+          13
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "first",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 34,
+        "endIndex": 35,
+        "sentNum": 1,
+        "position": [
+          1,
+          15
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "NCAA",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 38,
+        "endIndex": 39,
+        "sentNum": 1,
+        "position": [
+          1,
+          18
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "OKLAHOMA CITY (AP) _ Paul Jesperson banked in a halfcourt shot at the buzzer to give 11th seeded Northern Iowa a 75-72 win over No. 6 seed Texas Friday in the first round of the NCAA Tournament's West Region.",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 44,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "_ Paul Jesperson banked in a halfcourt shot at the buzzer to give 11th seeded Northern Iowa a 75-72 win over No. 6 seed Texas Friday in the first round of the NCAA Tournament's West Region",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 43,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "a halfcourt shot",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 11,
+        "endIndex": 14,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "11": [
+      {
+        "id": 11,
+        "text": "the buzzer",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 17,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "12": [
+      {
+        "id": 12,
+        "text": "11th seeded Northern Iowa a 75-72 win over No. 6 seed",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 19,
+        "endIndex": 30,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "a 75-72",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 23,
+        "endIndex": 25,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "14": [
+      {
+        "id": 14,
+        "text": "No. 6 seed",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 27,
+        "endIndex": 30,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "Texas Friday in the first round of the NCAA Tournament's West Region",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 30,
+        "endIndex": 43,
+        "sentNum": 1,
+        "position": [
+          1,
+          12
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "the first round of the NCAA Tournament's West Region",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 33,
+        "endIndex": 43,
+        "sentNum": 1,
+        "position": [
+          1,
+          14
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "the NCAA Tournament's West Region",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 37,
+        "endIndex": 43,
+        "sentNum": 1,
+        "position": [
+          1,
+          16
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "the NCAA Tournament's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 37,
+        "endIndex": 41,
+        "sentNum": 1,
+        "position": [
+          1,
+          17
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "Isaiah Taylor",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 11,
+        "endIndex": 13,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 45,
+        "text": "Taylor",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 5,
+        "position": [
+          5,
+          1
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "21": [
+      {
+        "id": 21,
+        "text": "the ball",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 28,
+        "text": "the ball",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 3,
+        "position": [
+          3,
+          2
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "22": [
+      {
+        "id": 22,
+        "text": "its basket",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 8,
+        "endIndex": 10,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "24": [
+      {
+        "id": 24,
+        "text": "the game",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 16,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "25": [
+      {
+        "id": 25,
+        "text": "a layup with 2.7 seconds",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 22,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "26": [
+      {
+        "id": 26,
+        "text": "2.7 seconds",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 22,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "29": [
+      {
+        "id": 29,
+        "text": "a few dribbles",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "UNKNOWN",
+        "startIndex": 7,
+        "endIndex": 10,
+        "sentNum": 3,
+        "position": [
+          3,
+          3
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 43,
+        "text": "their",
+        "type": "PRONOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 24,
+        "endIndex": 25,
+        "sentNum": 4,
+        "position": [
+          4,
+          13
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "30": [
+      {
+        "id": 30,
+        "text": "Wes Washpun",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 3,
+        "sentNum": 4,
+        "position": [
+          4,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "31": [
+      {
+        "id": 31,
+        "text": "17",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 5,
+        "sentNum": 4,
+        "position": [
+          4,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "32": [
+      {
+        "id": 32,
+        "text": "Jeremy Morgan",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 7,
+        "endIndex": 9,
+        "sentNum": 4,
+        "position": [
+          4,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "33": [
+      {
+        "id": 33,
+        "text": "16",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 4,
+        "position": [
+          4,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "35": [
+      {
+        "id": 35,
+        "text": "14",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 14,
+        "endIndex": 15,
+        "sentNum": 4,
+        "position": [
+          4,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "36": [
+      {
+        "id": 36,
+        "text": "23-12",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 20,
+        "sentNum": 4,
+        "position": [
+          4,
+          11
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "37": [
+      {
+        "id": 37,
+        "text": "fifth",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 25,
+        "endIndex": 26,
+        "sentNum": 4,
+        "position": [
+          4,
+          14
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "38": [
+      {
+        "id": 38,
+        "text": "17 points",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 6,
+        "sentNum": 4,
+        "position": [
+          4,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "39": [
+      {
+        "id": 39,
+        "text": "16 and Jesperson",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 13,
+        "sentNum": 4,
+        "position": [
+          4,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "40": [
+      {
+        "id": 40,
+        "text": "the Panthers (23-12), who claimed their fifth NCAA Tournament win in school history",
+        "type": "PROPER",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 32,
+        "sentNum": 4,
+        "position": [
+          4,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "41": [
+      {
+        "id": 41,
+        "text": "the Panthers (23-12)",
+        "type": "PROPER",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 21,
+        "sentNum": 4,
+        "position": [
+          4,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "42": [
+      {
+        "id": 42,
+        "text": "their fifth NCAA Tournament",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 28,
+        "sentNum": 4,
+        "position": [
+          4,
+          12
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "44": [
+      {
+        "id": 44,
+        "text": "school history",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 30,
+        "endIndex": 32,
+        "sentNum": 4,
+        "position": [
+          4,
+          15
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "46": [
+      {
+        "id": 46,
+        "text": "22",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 4,
+        "sentNum": 5,
+        "position": [
+          5,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "47": [
+      {
+        "id": 47,
+        "text": "Eric Davis Jr.",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 5,
+        "position": [
+          5,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "48": [
+      {
+        "id": 48,
+        "text": "13",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 11,
+        "sentNum": 5,
+        "position": [
+          5,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "49": [
+      {
+        "id": 49,
+        "text": "Javan Felix",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 12,
+        "endIndex": 14,
+        "sentNum": 5,
+        "position": [
+          5,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "50": [
+      {
+        "id": 50,
+        "text": "12",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 15,
+        "endIndex": 16,
+        "sentNum": 5,
+        "position": [
+          5,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "51": [
+      {
+        "id": 51,
+        "text": "20-13",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 21,
+        "sentNum": 5,
+        "position": [
+          5,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "52": [
+      {
+        "id": 52,
+        "text": "22 points",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 3,
+        "endIndex": 5,
+        "sentNum": 5,
+        "position": [
+          5,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "53": [
+      {
+        "id": 53,
+        "text": "13 and Javan Felix",
+        "type": "LIST",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 14,
+        "sentNum": 5,
+        "position": [
+          5,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "54": [
+      {
+        "id": 54,
+        "text": "the Longhorns (20-13)",
+        "type": "PROPER",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 17,
+        "endIndex": 22,
+        "sentNum": 5,
+        "position": [
+          5,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "56": [
+      {
+        "id": 56,
+        "text": "Golden State's",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 10,
+        "endIndex": 13,
+        "sentNum": 6,
+        "position": [
+          6,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "57": [
+      {
+        "id": 57,
+        "text": "Jesperson's shot",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 4,
+        "sentNum": 6,
+        "position": [
+          6,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "58": [
+      {
+        "id": 58,
+        "text": "the same building",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 6,
+        "endIndex": 9,
+        "sentNum": 6,
+        "position": [
+          6,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "59": [
+      {
+        "id": 59,
+        "text": "Golden State's Stephen Curry",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 10,
+        "endIndex": 15,
+        "sentNum": 6,
+        "position": [
+          6,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "60": [
+      {
+        "id": 60,
+        "text": "a dramatic game-winner",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 19,
+        "sentNum": 6,
+        "position": [
+          6,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "61": [
+      {
+        "id": 61,
+        "text": "the Oklahoma City Thunder",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 20,
+        "endIndex": 24,
+        "sentNum": 6,
+        "position": [
+          6,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "62": [
+      {
+        "id": 62,
+        "text": "last month",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 24,
+        "endIndex": 26,
+        "sentNum": 6,
+        "position": [
+          6,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}
