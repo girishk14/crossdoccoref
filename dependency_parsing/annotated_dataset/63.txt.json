@@ -1,0 +1,3540 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (S\n    (NP (NNP BERLIN) (NNP German) (NNP Foreign) (NNP Minister) (NNP Frank-Walter) (NNP Steinmeier))\n    (VP (VBD said)\n      (PP (IN on)\n        (NP (NNP Monday)))\n      (SBAR\n        (WHNP (WDT that))\n        (S\n          (NP (JJ Syrian) (NN President) (NNP Bashar) (NNP al-Assad))\n          (VP (MD would)\n            (VP (VB be)\n              (PP (IN under)\n                (NP (NN pressure)))\n              (S\n                (VP (TO to)\n                  (VP (VB negotiate)\n                    (NP (DT a) (JJ peaceful) (NN transition))\n                    (S\n                      (VP (TO to)\n                        (VP (VB end)\n                          (NP (DT the) (JJ Syrian) (JJ civil) (NN war))\n                          (SBAR (IN if)\n                            (S\n                              (NP (NNP Russia))\n                              (VP (VBD withdrew)\n                                (NP\n                                  (NP (DT the) (NN bulk))\n                                  (PP (IN of)\n                                    (NP (PRP$ its) (NNS forces))))\n                                (PP (IN from)\n                                  (NP (NNP Syria)))))))))))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "said"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 1,
+          "dependentGloss": "BERLIN"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 2,
+          "dependentGloss": "German"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 3,
+          "dependentGloss": "Foreign"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 4,
+          "dependentGloss": "Minister"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 5,
+          "dependentGloss": "Frank-Walter"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 6,
+          "dependentGloss": "Steinmeier"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Monday",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 9,
+          "dependentGloss": "Monday"
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 10,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "al-Assad",
+          "dependent": 11,
+          "dependentGloss": "Syrian"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "al-Assad",
+          "dependent": 12,
+          "dependentGloss": "President"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "al-Assad",
+          "dependent": 13,
+          "dependentGloss": "Bashar"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 14,
+          "dependentGloss": "al-Assad"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 15,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "cop",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 16,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 17,
+          "dependentGloss": "under"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 18,
+          "dependentGloss": "pressure"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 19,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 20,
+          "dependentGloss": "negotiate"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "transition",
+          "dependent": 21,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 23,
+          "governorGloss": "transition",
+          "dependent": 22,
+          "dependentGloss": "peaceful"
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 23,
+          "dependentGloss": "transition"
+        },
+        {
+          "dep": "mark",
+          "governor": 25,
+          "governorGloss": "end",
+          "dependent": 24,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 25,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "det",
+          "governor": 29,
+          "governorGloss": "war",
+          "dependent": 26,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 29,
+          "governorGloss": "war",
+          "dependent": 27,
+          "dependentGloss": "Syrian"
+        },
+        {
+          "dep": "amod",
+          "governor": 29,
+          "governorGloss": "war",
+          "dependent": 28,
+          "dependentGloss": "civil"
+        },
+        {
+          "dep": "dobj",
+          "governor": 25,
+          "governorGloss": "end",
+          "dependent": 29,
+          "dependentGloss": "war"
+        },
+        {
+          "dep": "mark",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 30,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 31,
+          "dependentGloss": "Russia"
+        },
+        {
+          "dep": "advcl",
+          "governor": 25,
+          "governorGloss": "end",
+          "dependent": 32,
+          "dependentGloss": "withdrew"
+        },
+        {
+          "dep": "det",
+          "governor": 34,
+          "governorGloss": "bulk",
+          "dependent": 33,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 34,
+          "dependentGloss": "bulk"
+        },
+        {
+          "dep": "case",
+          "governor": 37,
+          "governorGloss": "forces",
+          "dependent": 35,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 37,
+          "governorGloss": "forces",
+          "dependent": 36,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod",
+          "governor": 34,
+          "governorGloss": "bulk",
+          "dependent": 37,
+          "dependentGloss": "forces"
+        },
+        {
+          "dep": "case",
+          "governor": 39,
+          "governorGloss": "Syria",
+          "dependent": 38,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 39,
+          "dependentGloss": "Syria"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 40,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "said"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 1,
+          "dependentGloss": "BERLIN"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 2,
+          "dependentGloss": "German"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 3,
+          "dependentGloss": "Foreign"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 4,
+          "dependentGloss": "Minister"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 5,
+          "dependentGloss": "Frank-Walter"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 6,
+          "dependentGloss": "Steinmeier"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Monday",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 9,
+          "dependentGloss": "Monday"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 10,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "al-Assad",
+          "dependent": 11,
+          "dependentGloss": "Syrian"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "al-Assad",
+          "dependent": 12,
+          "dependentGloss": "President"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "al-Assad",
+          "dependent": 13,
+          "dependentGloss": "Bashar"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 14,
+          "dependentGloss": "al-Assad"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 15,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "cop",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 16,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 17,
+          "dependentGloss": "under"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 18,
+          "dependentGloss": "pressure"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 19,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 20,
+          "dependentGloss": "negotiate"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "transition",
+          "dependent": 21,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 23,
+          "governorGloss": "transition",
+          "dependent": 22,
+          "dependentGloss": "peaceful"
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 23,
+          "dependentGloss": "transition"
+        },
+        {
+          "dep": "mark",
+          "governor": 25,
+          "governorGloss": "end",
+          "dependent": 24,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 25,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "det",
+          "governor": 29,
+          "governorGloss": "war",
+          "dependent": 26,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 29,
+          "governorGloss": "war",
+          "dependent": 27,
+          "dependentGloss": "Syrian"
+        },
+        {
+          "dep": "amod",
+          "governor": 29,
+          "governorGloss": "war",
+          "dependent": 28,
+          "dependentGloss": "civil"
+        },
+        {
+          "dep": "dobj",
+          "governor": 25,
+          "governorGloss": "end",
+          "dependent": 29,
+          "dependentGloss": "war"
+        },
+        {
+          "dep": "mark",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 30,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 31,
+          "dependentGloss": "Russia"
+        },
+        {
+          "dep": "advcl",
+          "governor": 25,
+          "governorGloss": "end",
+          "dependent": 32,
+          "dependentGloss": "withdrew"
+        },
+        {
+          "dep": "det",
+          "governor": 34,
+          "governorGloss": "bulk",
+          "dependent": 33,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 34,
+          "dependentGloss": "bulk"
+        },
+        {
+          "dep": "case",
+          "governor": 37,
+          "governorGloss": "forces",
+          "dependent": 35,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 37,
+          "governorGloss": "forces",
+          "dependent": 36,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 34,
+          "governorGloss": "bulk",
+          "dependent": 37,
+          "dependentGloss": "forces"
+        },
+        {
+          "dep": "case",
+          "governor": 39,
+          "governorGloss": "Syria",
+          "dependent": 38,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 39,
+          "dependentGloss": "Syria"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "said"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 1,
+          "dependentGloss": "BERLIN"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 2,
+          "dependentGloss": "German"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 3,
+          "dependentGloss": "Foreign"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 4,
+          "dependentGloss": "Minister"
+        },
+        {
+          "dep": "compound",
+          "governor": 6,
+          "governorGloss": "Steinmeier",
+          "dependent": 5,
+          "dependentGloss": "Frank-Walter"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 6,
+          "dependentGloss": "Steinmeier"
+        },
+        {
+          "dep": "case",
+          "governor": 9,
+          "governorGloss": "Monday",
+          "dependent": 8,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 9,
+          "dependentGloss": "Monday"
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 10,
+          "dependentGloss": "that"
+        },
+        {
+          "dep": "amod",
+          "governor": 14,
+          "governorGloss": "al-Assad",
+          "dependent": 11,
+          "dependentGloss": "Syrian"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "al-Assad",
+          "dependent": 12,
+          "dependentGloss": "President"
+        },
+        {
+          "dep": "compound",
+          "governor": 14,
+          "governorGloss": "al-Assad",
+          "dependent": 13,
+          "dependentGloss": "Bashar"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 14,
+          "dependentGloss": "al-Assad"
+        },
+        {
+          "dep": "aux",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 15,
+          "dependentGloss": "would"
+        },
+        {
+          "dep": "cop",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 16,
+          "dependentGloss": "be"
+        },
+        {
+          "dep": "case",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 17,
+          "dependentGloss": "under"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 18,
+          "dependentGloss": "pressure"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 19,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 18,
+          "governorGloss": "pressure",
+          "dependent": 20,
+          "dependentGloss": "negotiate"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "transition",
+          "dependent": 21,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 23,
+          "governorGloss": "transition",
+          "dependent": 22,
+          "dependentGloss": "peaceful"
+        },
+        {
+          "dep": "dobj",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 23,
+          "dependentGloss": "transition"
+        },
+        {
+          "dep": "mark",
+          "governor": 25,
+          "governorGloss": "end",
+          "dependent": 24,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 20,
+          "governorGloss": "negotiate",
+          "dependent": 25,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "det",
+          "governor": 29,
+          "governorGloss": "war",
+          "dependent": 26,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 29,
+          "governorGloss": "war",
+          "dependent": 27,
+          "dependentGloss": "Syrian"
+        },
+        {
+          "dep": "amod",
+          "governor": 29,
+          "governorGloss": "war",
+          "dependent": 28,
+          "dependentGloss": "civil"
+        },
+        {
+          "dep": "dobj",
+          "governor": 25,
+          "governorGloss": "end",
+          "dependent": 29,
+          "dependentGloss": "war"
+        },
+        {
+          "dep": "mark",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 30,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 31,
+          "dependentGloss": "Russia"
+        },
+        {
+          "dep": "advcl",
+          "governor": 25,
+          "governorGloss": "end",
+          "dependent": 32,
+          "dependentGloss": "withdrew"
+        },
+        {
+          "dep": "det",
+          "governor": 34,
+          "governorGloss": "bulk",
+          "dependent": 33,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 34,
+          "dependentGloss": "bulk"
+        },
+        {
+          "dep": "case",
+          "governor": 37,
+          "governorGloss": "forces",
+          "dependent": 35,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 37,
+          "governorGloss": "forces",
+          "dependent": 36,
+          "dependentGloss": "its"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 34,
+          "governorGloss": "bulk",
+          "dependent": 37,
+          "dependentGloss": "forces"
+        },
+        {
+          "dep": "case",
+          "governor": 39,
+          "governorGloss": "Syria",
+          "dependent": 38,
+          "dependentGloss": "from"
+        },
+        {
+          "dep": "nmod:from",
+          "governor": 32,
+          "governorGloss": "withdrew",
+          "dependent": 39,
+          "dependentGloss": "Syria"
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "said",
+          "dependent": 40,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "1",
+      "sentiment": "Negative",
+      "openie": [
+        {
+          "subject": "Frank-Walter Steinmeier",
+          "subjectSpan": [4, 6],
+          "relation": "is",
+          "relationSpan": [0, 1],
+          "object": "BERLIN",
+          "objectSpan": [0, 1]
+        },
+        {
+          "subject": "Frank-Walter Steinmeier",
+          "subjectSpan": [4, 6],
+          "relation": "is German Foreign Minister of",
+          "relationSpan": [1, 3],
+          "object": "BERLIN",
+          "objectSpan": [0, 1]
+        },
+        {
+          "subject": "Frank-Walter Steinmeier",
+          "subjectSpan": [4, 6],
+          "relation": "is",
+          "relationSpan": [1, 2],
+          "object": "German",
+          "objectSpan": [1, 2]
+        },
+        {
+          "subject": "Bashar al-Assad",
+          "subjectSpan": [12, 14],
+          "relation": "is",
+          "relationSpan": [10, 11],
+          "object": "Syrian",
+          "objectSpan": [10, 11]
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "BERLIN",
+          "originalText": "BERLIN",
+          "lemma": "BERLIN",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 6,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "German",
+          "originalText": "German",
+          "lemma": "German",
+          "characterOffsetBegin": 7,
+          "characterOffsetEnd": 13,
+          "pos": "NNP",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "Foreign",
+          "originalText": "Foreign",
+          "lemma": "Foreign",
+          "characterOffsetBegin": 14,
+          "characterOffsetEnd": 21,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "Minister",
+          "originalText": "Minister",
+          "lemma": "Minister",
+          "characterOffsetBegin": 22,
+          "characterOffsetEnd": 30,
+          "pos": "NNP",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "Frank-Walter",
+          "originalText": "Frank-Walter",
+          "lemma": "Frank-Walter",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 43,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "Steinmeier",
+          "originalText": "Steinmeier",
+          "lemma": "Steinmeier",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 54,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "said",
+          "originalText": "said",
+          "lemma": "say",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 59,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 62,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Monday",
+          "originalText": "Monday",
+          "lemma": "Monday",
+          "characterOffsetBegin": 63,
+          "characterOffsetEnd": 69,
+          "pos": "NNP",
+          "ner": "DATE",
+          "normalizedNER": "XXXX-WXX-1",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " ",
+          "timex": {
+            "tid": "t1",
+            "type": "DATE",
+            "value": "XXXX-WXX-1"
+          }
+        },
+        {
+          "index": 10,
+          "word": "that",
+          "originalText": "that",
+          "lemma": "that",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 74,
+          "pos": "WDT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "Syrian",
+          "originalText": "Syrian",
+          "lemma": "syrian",
+          "characterOffsetBegin": 75,
+          "characterOffsetEnd": 81,
+          "pos": "JJ",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "President",
+          "originalText": "President",
+          "lemma": "president",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 91,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "Bashar",
+          "originalText": "Bashar",
+          "lemma": "Bashar",
+          "characterOffsetBegin": 92,
+          "characterOffsetEnd": 98,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "al-Assad",
+          "originalText": "al-Assad",
+          "lemma": "al-Assad",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 107,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "would",
+          "originalText": "would",
+          "lemma": "would",
+          "characterOffsetBegin": 108,
+          "characterOffsetEnd": 113,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "be",
+          "originalText": "be",
+          "lemma": "be",
+          "characterOffsetBegin": 114,
+          "characterOffsetEnd": 116,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "under",
+          "originalText": "under",
+          "lemma": "under",
+          "characterOffsetBegin": 117,
+          "characterOffsetEnd": 122,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "pressure",
+          "originalText": "pressure",
+          "lemma": "pressure",
+          "characterOffsetBegin": 123,
+          "characterOffsetEnd": 131,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 134,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "negotiate",
+          "originalText": "negotiate",
+          "lemma": "negotiate",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 144,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 145,
+          "characterOffsetEnd": 146,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "peaceful",
+          "originalText": "peaceful",
+          "lemma": "peaceful",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 155,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "transition",
+          "originalText": "transition",
+          "lemma": "transition",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 166,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 167,
+          "characterOffsetEnd": 169,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "end",
+          "originalText": "end",
+          "lemma": "end",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 173,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 174,
+          "characterOffsetEnd": 177,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "Syrian",
+          "originalText": "Syrian",
+          "lemma": "syrian",
+          "characterOffsetBegin": 178,
+          "characterOffsetEnd": 184,
+          "pos": "JJ",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "civil",
+          "originalText": "civil",
+          "lemma": "civil",
+          "characterOffsetBegin": 185,
+          "characterOffsetEnd": 190,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "war",
+          "originalText": "war",
+          "lemma": "war",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 194,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "if",
+          "originalText": "if",
+          "lemma": "if",
+          "characterOffsetBegin": 195,
+          "characterOffsetEnd": 197,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "Russia",
+          "originalText": "Russia",
+          "lemma": "Russia",
+          "characterOffsetBegin": 198,
+          "characterOffsetEnd": 204,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "withdrew",
+          "originalText": "withdrew",
+          "lemma": "withdraw",
+          "characterOffsetBegin": 205,
+          "characterOffsetEnd": 213,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 33,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 214,
+          "characterOffsetEnd": 217,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 34,
+          "word": "bulk",
+          "originalText": "bulk",
+          "lemma": "bulk",
+          "characterOffsetBegin": 218,
+          "characterOffsetEnd": 222,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 35,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 223,
+          "characterOffsetEnd": 225,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 36,
+          "word": "its",
+          "originalText": "its",
+          "lemma": "its",
+          "characterOffsetBegin": 226,
+          "characterOffsetEnd": 229,
+          "pos": "PRP$",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 37,
+          "word": "forces",
+          "originalText": "forces",
+          "lemma": "force",
+          "characterOffsetBegin": 230,
+          "characterOffsetEnd": 236,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 38,
+          "word": "from",
+          "originalText": "from",
+          "lemma": "from",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 241,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 39,
+          "word": "Syria",
+          "originalText": "Syria",
+          "lemma": "Syria",
+          "characterOffsetBegin": 242,
+          "characterOffsetEnd": 247,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 40,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 247,
+          "characterOffsetEnd": 248,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": "\n"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (S (`` ``)\n    (S (CC And)\n      (SBAR (IN if)\n        (S\n          (NP\n            (NP (DT the) (NN announcement))\n            (PP (IN of)\n              (NP (DT a) (JJ Russian) (NN troop) (NN withdrawal))))\n          (VP (VBZ materializes))))\n      (, ,)\n      (NP (DT this))\n      (VP (MD will)\n        (VP (VB increase)\n          (NP\n            (NP (DT the) (NN pressure))\n            (PP (IN on)\n              (NP (DT the) (JJ al-Assad) (NN regime))))\n          (S\n            (VP (TO to)\n              (VP\n                (ADVP\n                  (ADVP (RB finally))\n                  (CC and)\n                  (ADVP (RB seriously)))\n                (VB negotiate)\n                (NP\n                  (NP (DT a) (JJ peaceful) (JJ political) (NN transition))\n                  (PP (IN in)\n                    (NP (NNP Geneva))))))))))\n    (, ,) ('' '')\n    (NP (NNP Steinmeier))\n    (VP (VBD said)\n      (PP (IN in)\n        (NP (DT a) (NN statement)))\n      (, ,)\n      (S\n        (VP (VBG referring)\n          (PP (TO to)\n            (NP\n              (NP (NN peace) (NNS talks))\n              (PP (IN in)\n                (NP (DT the) (JJ Swiss) (NN city))))))))\n    (. .)))",
+      "basic-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 36,
+          "dependentGloss": "said"
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 1,
+          "dependentGloss": "``"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 2,
+          "dependentGloss": "And"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "materializes",
+          "dependent": 3,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "announcement",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "materializes",
+          "dependent": 5,
+          "dependentGloss": "announcement"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 8,
+          "dependentGloss": "Russian"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 9,
+          "dependentGloss": "troop"
+        },
+        {
+          "dep": "nmod",
+          "governor": 5,
+          "governorGloss": "announcement",
+          "dependent": 10,
+          "dependentGloss": "withdrawal"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 11,
+          "dependentGloss": "materializes"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 13,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 14,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 15,
+          "dependentGloss": "increase"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "pressure",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 17,
+          "dependentGloss": "pressure"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "regime",
+          "dependent": 18,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "regime",
+          "dependent": 19,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 21,
+          "governorGloss": "regime",
+          "dependent": 20,
+          "dependentGloss": "al-Assad"
+        },
+        {
+          "dep": "nmod",
+          "governor": 17,
+          "governorGloss": "pressure",
+          "dependent": 21,
+          "dependentGloss": "regime"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "negotiate",
+          "dependent": 22,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advmod",
+          "governor": 24,
+          "governorGloss": "and",
+          "dependent": 23,
+          "dependentGloss": "finally"
+        },
+        {
+          "dep": "advmod",
+          "governor": 26,
+          "governorGloss": "negotiate",
+          "dependent": 24,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 24,
+          "governorGloss": "and",
+          "dependent": 25,
+          "dependentGloss": "seriously"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 26,
+          "dependentGloss": "negotiate"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 27,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 28,
+          "dependentGloss": "peaceful"
+        },
+        {
+          "dep": "amod",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 29,
+          "dependentGloss": "political"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "negotiate",
+          "dependent": 30,
+          "dependentGloss": "transition"
+        },
+        {
+          "dep": "case",
+          "governor": 32,
+          "governorGloss": "Geneva",
+          "dependent": 31,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 32,
+          "dependentGloss": "Geneva"
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 33,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 34,
+          "dependentGloss": "''"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 35,
+          "dependentGloss": "Steinmeier"
+        },
+        {
+          "dep": "case",
+          "governor": 39,
+          "governorGloss": "statement",
+          "dependent": 37,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 39,
+          "governorGloss": "statement",
+          "dependent": 38,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 39,
+          "dependentGloss": "statement"
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 40,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "xcomp",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 41,
+          "dependentGloss": "referring"
+        },
+        {
+          "dep": "case",
+          "governor": 44,
+          "governorGloss": "talks",
+          "dependent": 42,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "compound",
+          "governor": 44,
+          "governorGloss": "talks",
+          "dependent": 43,
+          "dependentGloss": "peace"
+        },
+        {
+          "dep": "nmod",
+          "governor": 41,
+          "governorGloss": "referring",
+          "dependent": 44,
+          "dependentGloss": "talks"
+        },
+        {
+          "dep": "case",
+          "governor": 48,
+          "governorGloss": "city",
+          "dependent": 45,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 48,
+          "governorGloss": "city",
+          "dependent": 46,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 48,
+          "governorGloss": "city",
+          "dependent": 47,
+          "dependentGloss": "Swiss"
+        },
+        {
+          "dep": "nmod",
+          "governor": 44,
+          "governorGloss": "talks",
+          "dependent": 48,
+          "dependentGloss": "city"
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 49,
+          "dependentGloss": "."
+        }
+      ],
+      "collapsed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 36,
+          "dependentGloss": "said"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 2,
+          "dependentGloss": "And"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "materializes",
+          "dependent": 3,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "announcement",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "materializes",
+          "dependent": 5,
+          "dependentGloss": "announcement"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 8,
+          "dependentGloss": "Russian"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 9,
+          "dependentGloss": "troop"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "announcement",
+          "dependent": 10,
+          "dependentGloss": "withdrawal"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 11,
+          "dependentGloss": "materializes"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 13,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 14,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 15,
+          "dependentGloss": "increase"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "pressure",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 17,
+          "dependentGloss": "pressure"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "regime",
+          "dependent": 18,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "regime",
+          "dependent": 19,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 21,
+          "governorGloss": "regime",
+          "dependent": 20,
+          "dependentGloss": "al-Assad"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 17,
+          "governorGloss": "pressure",
+          "dependent": 21,
+          "dependentGloss": "regime"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "negotiate",
+          "dependent": 22,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advmod",
+          "governor": 24,
+          "governorGloss": "and",
+          "dependent": 23,
+          "dependentGloss": "finally"
+        },
+        {
+          "dep": "advmod",
+          "governor": 26,
+          "governorGloss": "negotiate",
+          "dependent": 24,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 24,
+          "governorGloss": "and",
+          "dependent": 25,
+          "dependentGloss": "seriously"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 26,
+          "dependentGloss": "negotiate"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 27,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 28,
+          "dependentGloss": "peaceful"
+        },
+        {
+          "dep": "amod",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 29,
+          "dependentGloss": "political"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "negotiate",
+          "dependent": 30,
+          "dependentGloss": "transition"
+        },
+        {
+          "dep": "case",
+          "governor": 32,
+          "governorGloss": "Geneva",
+          "dependent": 31,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 32,
+          "dependentGloss": "Geneva"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 35,
+          "dependentGloss": "Steinmeier"
+        },
+        {
+          "dep": "case",
+          "governor": 39,
+          "governorGloss": "statement",
+          "dependent": 37,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 39,
+          "governorGloss": "statement",
+          "dependent": 38,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 39,
+          "dependentGloss": "statement"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 41,
+          "dependentGloss": "referring"
+        },
+        {
+          "dep": "case",
+          "governor": 44,
+          "governorGloss": "talks",
+          "dependent": 42,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "compound",
+          "governor": 44,
+          "governorGloss": "talks",
+          "dependent": 43,
+          "dependentGloss": "peace"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 41,
+          "governorGloss": "referring",
+          "dependent": 44,
+          "dependentGloss": "talks"
+        },
+        {
+          "dep": "case",
+          "governor": 48,
+          "governorGloss": "city",
+          "dependent": 45,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 48,
+          "governorGloss": "city",
+          "dependent": 46,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 48,
+          "governorGloss": "city",
+          "dependent": 47,
+          "dependentGloss": "Swiss"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 44,
+          "governorGloss": "talks",
+          "dependent": 48,
+          "dependentGloss": "city"
+        }
+      ],
+      "collapsed-ccprocessed-dependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 36,
+          "dependentGloss": "said"
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 1,
+          "dependentGloss": "``"
+        },
+        {
+          "dep": "cc",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 2,
+          "dependentGloss": "And"
+        },
+        {
+          "dep": "mark",
+          "governor": 11,
+          "governorGloss": "materializes",
+          "dependent": 3,
+          "dependentGloss": "if"
+        },
+        {
+          "dep": "det",
+          "governor": 5,
+          "governorGloss": "announcement",
+          "dependent": 4,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 11,
+          "governorGloss": "materializes",
+          "dependent": 5,
+          "dependentGloss": "announcement"
+        },
+        {
+          "dep": "case",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 6,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "det",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 7,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 8,
+          "dependentGloss": "Russian"
+        },
+        {
+          "dep": "compound",
+          "governor": 10,
+          "governorGloss": "withdrawal",
+          "dependent": 9,
+          "dependentGloss": "troop"
+        },
+        {
+          "dep": "nmod:of",
+          "governor": 5,
+          "governorGloss": "announcement",
+          "dependent": 10,
+          "dependentGloss": "withdrawal"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 11,
+          "dependentGloss": "materializes"
+        },
+        {
+          "dep": "punct",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 12,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "nsubj",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 13,
+          "dependentGloss": "this"
+        },
+        {
+          "dep": "aux",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 14,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "ccomp",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 15,
+          "dependentGloss": "increase"
+        },
+        {
+          "dep": "det",
+          "governor": 17,
+          "governorGloss": "pressure",
+          "dependent": 16,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 17,
+          "dependentGloss": "pressure"
+        },
+        {
+          "dep": "case",
+          "governor": 21,
+          "governorGloss": "regime",
+          "dependent": 18,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 21,
+          "governorGloss": "regime",
+          "dependent": 19,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 21,
+          "governorGloss": "regime",
+          "dependent": 20,
+          "dependentGloss": "al-Assad"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 17,
+          "governorGloss": "pressure",
+          "dependent": 21,
+          "dependentGloss": "regime"
+        },
+        {
+          "dep": "mark",
+          "governor": 26,
+          "governorGloss": "negotiate",
+          "dependent": 22,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advmod",
+          "governor": 24,
+          "governorGloss": "and",
+          "dependent": 23,
+          "dependentGloss": "finally"
+        },
+        {
+          "dep": "advmod",
+          "governor": 26,
+          "governorGloss": "negotiate",
+          "dependent": 24,
+          "dependentGloss": "and"
+        },
+        {
+          "dep": "advmod",
+          "governor": 24,
+          "governorGloss": "and",
+          "dependent": 25,
+          "dependentGloss": "seriously"
+        },
+        {
+          "dep": "advcl",
+          "governor": 15,
+          "governorGloss": "increase",
+          "dependent": 26,
+          "dependentGloss": "negotiate"
+        },
+        {
+          "dep": "det",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 27,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 28,
+          "dependentGloss": "peaceful"
+        },
+        {
+          "dep": "amod",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 29,
+          "dependentGloss": "political"
+        },
+        {
+          "dep": "dobj",
+          "governor": 26,
+          "governorGloss": "negotiate",
+          "dependent": 30,
+          "dependentGloss": "transition"
+        },
+        {
+          "dep": "case",
+          "governor": 32,
+          "governorGloss": "Geneva",
+          "dependent": 31,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 30,
+          "governorGloss": "transition",
+          "dependent": 32,
+          "dependentGloss": "Geneva"
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 33,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 34,
+          "dependentGloss": "''"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 35,
+          "dependentGloss": "Steinmeier"
+        },
+        {
+          "dep": "case",
+          "governor": 39,
+          "governorGloss": "statement",
+          "dependent": 37,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 39,
+          "governorGloss": "statement",
+          "dependent": 38,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 39,
+          "dependentGloss": "statement"
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 40,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "xcomp",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 41,
+          "dependentGloss": "referring"
+        },
+        {
+          "dep": "case",
+          "governor": 44,
+          "governorGloss": "talks",
+          "dependent": 42,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "compound",
+          "governor": 44,
+          "governorGloss": "talks",
+          "dependent": 43,
+          "dependentGloss": "peace"
+        },
+        {
+          "dep": "nmod:to",
+          "governor": 41,
+          "governorGloss": "referring",
+          "dependent": 44,
+          "dependentGloss": "talks"
+        },
+        {
+          "dep": "case",
+          "governor": 48,
+          "governorGloss": "city",
+          "dependent": 45,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "det",
+          "governor": 48,
+          "governorGloss": "city",
+          "dependent": 46,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "amod",
+          "governor": 48,
+          "governorGloss": "city",
+          "dependent": 47,
+          "dependentGloss": "Swiss"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 44,
+          "governorGloss": "talks",
+          "dependent": 48,
+          "dependentGloss": "city"
+        },
+        {
+          "dep": "punct",
+          "governor": 36,
+          "governorGloss": "said",
+          "dependent": 49,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "1",
+      "sentiment": "Negative",
+      "openie": [
+        {
+          "subject": "Steinmeier",
+          "subjectSpan": [34, 35],
+          "relation": "said in",
+          "relationSpan": [35, 37],
+          "object": "statement",
+          "objectSpan": [38, 39]
+        },
+        {
+          "subject": "Steinmeier",
+          "subjectSpan": [34, 35],
+          "relation": "referring to",
+          "relationSpan": [40, 42],
+          "object": "peace talks in city",
+          "objectSpan": [42, 48]
+        },
+        {
+          "subject": "Steinmeier",
+          "subjectSpan": [34, 35],
+          "relation": "said",
+          "relationSpan": [35, 36],
+          "object": "referring to peace talks",
+          "objectSpan": [40, 44]
+        },
+        {
+          "subject": "Steinmeier",
+          "subjectSpan": [34, 35],
+          "relation": "said",
+          "relationSpan": [35, 36],
+          "object": "referring",
+          "objectSpan": [40, 41]
+        },
+        {
+          "subject": "peaceful political transition",
+          "subjectSpan": [27, 30],
+          "relation": "is in",
+          "relationSpan": [30, 31],
+          "object": "Geneva",
+          "objectSpan": [31, 32]
+        },
+        {
+          "subject": "Steinmeier",
+          "subjectSpan": [34, 35],
+          "relation": "said",
+          "relationSpan": [35, 36],
+          "object": "referring to peace talks in city",
+          "objectSpan": [40, 48]
+        },
+        {
+          "subject": "peace talks",
+          "subjectSpan": [42, 44],
+          "relation": "is in",
+          "relationSpan": [44, 45],
+          "object": "Swiss city",
+          "objectSpan": [46, 48]
+        },
+        {
+          "subject": "Steinmeier",
+          "subjectSpan": [34, 35],
+          "relation": "said",
+          "relationSpan": [35, 36],
+          "object": "referring to peace talks in Swiss city",
+          "objectSpan": [40, 48]
+        },
+        {
+          "subject": "Steinmeier",
+          "subjectSpan": [34, 35],
+          "relation": "referring to",
+          "relationSpan": [40, 42],
+          "object": "peace talks",
+          "objectSpan": [42, 44]
+        },
+        {
+          "subject": "Steinmeier",
+          "subjectSpan": [34, 35],
+          "relation": "referring to",
+          "relationSpan": [40, 42],
+          "object": "peace talks in Swiss city",
+          "objectSpan": [42, 48]
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "``",
+          "originalText": "\"",
+          "lemma": "``",
+          "characterOffsetBegin": 249,
+          "characterOffsetEnd": 250,
+          "pos": "``",
+          "ner": "O",
+          "before": "\n",
+          "after": ""
+        },
+        {
+          "index": 2,
+          "word": "And",
+          "originalText": "And",
+          "lemma": "and",
+          "characterOffsetBegin": 250,
+          "characterOffsetEnd": 253,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "14",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "if",
+          "originalText": "if",
+          "lemma": "if",
+          "characterOffsetBegin": 254,
+          "characterOffsetEnd": 256,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 257,
+          "characterOffsetEnd": 260,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "announcement",
+          "originalText": "announcement",
+          "lemma": "announcement",
+          "characterOffsetBegin": 261,
+          "characterOffsetEnd": 273,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "of",
+          "originalText": "of",
+          "lemma": "of",
+          "characterOffsetBegin": 274,
+          "characterOffsetEnd": 276,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 277,
+          "characterOffsetEnd": 278,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Russian",
+          "originalText": "Russian",
+          "lemma": "russian",
+          "characterOffsetBegin": 279,
+          "characterOffsetEnd": 286,
+          "pos": "JJ",
+          "ner": "MISC",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "troop",
+          "originalText": "troop",
+          "lemma": "troop",
+          "characterOffsetBegin": 287,
+          "characterOffsetEnd": 292,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "withdrawal",
+          "originalText": "withdrawal",
+          "lemma": "withdrawal",
+          "characterOffsetBegin": 293,
+          "characterOffsetEnd": 303,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "materializes",
+          "originalText": "materializes",
+          "lemma": "materialize",
+          "characterOffsetBegin": 304,
+          "characterOffsetEnd": 316,
+          "pos": "VBZ",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 316,
+          "characterOffsetEnd": 317,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "14",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "this",
+          "originalText": "this",
+          "lemma": "this",
+          "characterOffsetBegin": 318,
+          "characterOffsetEnd": 322,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "will",
+          "originalText": "will",
+          "lemma": "will",
+          "characterOffsetBegin": 323,
+          "characterOffsetEnd": 327,
+          "pos": "MD",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "increase",
+          "originalText": "increase",
+          "lemma": "increase",
+          "characterOffsetBegin": 328,
+          "characterOffsetEnd": 336,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 337,
+          "characterOffsetEnd": 340,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "pressure",
+          "originalText": "pressure",
+          "lemma": "pressure",
+          "characterOffsetBegin": 341,
+          "characterOffsetEnd": 349,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 350,
+          "characterOffsetEnd": 352,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 353,
+          "characterOffsetEnd": 356,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "al-Assad",
+          "originalText": "al-Assad",
+          "lemma": "al-assad",
+          "characterOffsetBegin": 357,
+          "characterOffsetEnd": 365,
+          "pos": "JJ",
+          "ner": "PERSON",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "regime",
+          "originalText": "regime",
+          "lemma": "regime",
+          "characterOffsetBegin": 366,
+          "characterOffsetEnd": 372,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 373,
+          "characterOffsetEnd": 375,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "finally",
+          "originalText": "finally",
+          "lemma": "finally",
+          "characterOffsetBegin": 376,
+          "characterOffsetEnd": 383,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "and",
+          "originalText": "and",
+          "lemma": "and",
+          "characterOffsetBegin": 384,
+          "characterOffsetEnd": 387,
+          "pos": "CC",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "seriously",
+          "originalText": "seriously",
+          "lemma": "seriously",
+          "characterOffsetBegin": 388,
+          "characterOffsetEnd": 397,
+          "pos": "RB",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "negotiate",
+          "originalText": "negotiate",
+          "lemma": "negotiate",
+          "characterOffsetBegin": 398,
+          "characterOffsetEnd": 407,
+          "pos": "VB",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 408,
+          "characterOffsetEnd": 409,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 28,
+          "word": "peaceful",
+          "originalText": "peaceful",
+          "lemma": "peaceful",
+          "characterOffsetBegin": 410,
+          "characterOffsetEnd": 418,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 29,
+          "word": "political",
+          "originalText": "political",
+          "lemma": "political",
+          "characterOffsetBegin": 419,
+          "characterOffsetEnd": 428,
+          "pos": "JJ",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 30,
+          "word": "transition",
+          "originalText": "transition",
+          "lemma": "transition",
+          "characterOffsetBegin": 429,
+          "characterOffsetEnd": 439,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 31,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 440,
+          "characterOffsetEnd": 442,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "14",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 32,
+          "word": "Geneva",
+          "originalText": "Geneva",
+          "lemma": "Geneva",
+          "characterOffsetBegin": 443,
+          "characterOffsetEnd": 449,
+          "pos": "NNP",
+          "ner": "LOCATION",
+          "speaker": "14",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 33,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 449,
+          "characterOffsetEnd": 450,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "14",
+          "before": "",
+          "after": ""
+        },
+        {
+          "index": 34,
+          "word": "''",
+          "originalText": "\"",
+          "lemma": "''",
+          "characterOffsetBegin": 450,
+          "characterOffsetEnd": 451,
+          "pos": "''",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 35,
+          "word": "Steinmeier",
+          "originalText": "Steinmeier",
+          "lemma": "Steinmeier",
+          "characterOffsetBegin": 452,
+          "characterOffsetEnd": 462,
+          "pos": "NNP",
+          "ner": "PERSON",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 36,
+          "word": "said",
+          "originalText": "said",
+          "lemma": "say",
+          "characterOffsetBegin": 463,
+          "characterOffsetEnd": 467,
+          "pos": "VBD",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 37,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 468,
+          "characterOffsetEnd": 470,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 38,
+          "word": "a",
+          "originalText": "a",
+          "lemma": "a",
+          "characterOffsetBegin": 471,
+          "characterOffsetEnd": 472,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 39,
+          "word": "statement",
+          "originalText": "statement",
+          "lemma": "statement",
+          "characterOffsetBegin": 473,
+          "characterOffsetEnd": 482,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 40,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 482,
+          "characterOffsetEnd": 483,
+          "pos": ",",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 41,
+          "word": "referring",
+          "originalText": "referring",
+          "lemma": "refer",
+          "characterOffsetBegin": 484,
+          "characterOffsetEnd": 493,
+          "pos": "VBG",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 42,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 494,
+          "characterOffsetEnd": 496,
+          "pos": "TO",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 43,
+          "word": "peace",
+          "originalText": "peace",
+          "lemma": "peace",
+          "characterOffsetBegin": 497,
+          "characterOffsetEnd": 502,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 44,
+          "word": "talks",
+          "originalText": "talks",
+          "lemma": "talk",
+          "characterOffsetBegin": 503,
+          "characterOffsetEnd": 508,
+          "pos": "NNS",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 45,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 509,
+          "characterOffsetEnd": 511,
+          "pos": "IN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 46,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 512,
+          "characterOffsetEnd": 515,
+          "pos": "DT",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 47,
+          "word": "Swiss",
+          "originalText": "Swiss",
+          "lemma": "swiss",
+          "characterOffsetBegin": 516,
+          "characterOffsetEnd": 521,
+          "pos": "JJ",
+          "ner": "MISC",
+          "speaker": "PER0",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 48,
+          "word": "city",
+          "originalText": "city",
+          "lemma": "city",
+          "characterOffsetBegin": 522,
+          "characterOffsetEnd": 526,
+          "pos": "NN",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 49,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 526,
+          "characterOffsetEnd": 527,
+          "pos": ".",
+          "ner": "O",
+          "speaker": "PER0",
+          "before": "",
+          "after": ""
+        }
+      ]
+    }
+  ],
+  "corefs": {
+    "1": [
+      {
+        "id": 1,
+        "text": "BERLIN",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 1,
+        "endIndex": 2,
+        "sentNum": 1,
+        "position": [
+          1,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "text": "Russia",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 31,
+        "endIndex": 32,
+        "sentNum": 1,
+        "position": [
+          1,
+          7
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 11,
+        "text": "its",
+        "type": "PRONOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 36,
+        "endIndex": 37,
+        "sentNum": 1,
+        "position": [
+          1,
+          10
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "3": [
+      {
+        "id": 3,
+        "text": "Syria",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 39,
+        "endIndex": 40,
+        "sentNum": 1,
+        "position": [
+          1,
+          11
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "4": [
+      {
+        "id": 4,
+        "text": "BERLIN German Foreign Minister Frank-Walter Steinmeier",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 1,
+        "endIndex": 7,
+        "sentNum": 1,
+        "position": [
+          1,
+          1
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 14,
+        "text": "Steinmeier",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "ANIMATE",
+        "startIndex": 35,
+        "endIndex": 36,
+        "sentNum": 2,
+        "position": [
+          2,
+          9
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "text": "Monday",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 9,
+        "endIndex": 10,
+        "sentNum": 1,
+        "position": [
+          1,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "6": [
+      {
+        "id": 6,
+        "text": "Syrian President Bashar al-Assad",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 11,
+        "endIndex": 15,
+        "sentNum": 1,
+        "position": [
+          1,
+          4
+        ],
+        "isRepresentativeMention": true
+      },
+      {
+        "id": 12,
+        "text": "al-Assad",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "MALE",
+        "animacy": "ANIMATE",
+        "startIndex": 20,
+        "endIndex": 21,
+        "sentNum": 2,
+        "position": [
+          2,
+          6
+        ],
+        "isRepresentativeMention": false
+      }
+    ],
+    "7": [
+      {
+        "id": 7,
+        "text": "a peaceful transition",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 21,
+        "endIndex": 24,
+        "sentNum": 1,
+        "position": [
+          1,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "8": [
+      {
+        "id": 8,
+        "text": "the Syrian civil war",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 26,
+        "endIndex": 30,
+        "sentNum": 1,
+        "position": [
+          1,
+          6
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "9": [
+      {
+        "id": 9,
+        "text": "the bulk of its forces",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 33,
+        "endIndex": 38,
+        "sentNum": 1,
+        "position": [
+          1,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "10": [
+      {
+        "id": 10,
+        "text": "its forces",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 36,
+        "endIndex": 38,
+        "sentNum": 1,
+        "position": [
+          1,
+          9
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "13": [
+      {
+        "id": 13,
+        "text": "Geneva",
+        "type": "PROPER",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 32,
+        "endIndex": 33,
+        "sentNum": 2,
+        "position": [
+          2,
+          8
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "15": [
+      {
+        "id": 15,
+        "text": "the announcement of a Russian troop withdrawal",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 4,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          1
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "16": [
+      {
+        "id": 16,
+        "text": "a Russian troop withdrawal",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 7,
+        "endIndex": 11,
+        "sentNum": 2,
+        "position": [
+          2,
+          2
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "17": [
+      {
+        "id": 17,
+        "text": "this",
+        "type": "NOMINAL",
+        "number": "UNKNOWN",
+        "gender": "NEUTRAL",
+        "animacy": "UNKNOWN",
+        "startIndex": 13,
+        "endIndex": 14,
+        "sentNum": 2,
+        "position": [
+          2,
+          3
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "18": [
+      {
+        "id": 18,
+        "text": "the pressure on the al-Assad regime",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 16,
+        "endIndex": 22,
+        "sentNum": 2,
+        "position": [
+          2,
+          4
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "19": [
+      {
+        "id": 19,
+        "text": "the al-Assad regime",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 19,
+        "endIndex": 22,
+        "sentNum": 2,
+        "position": [
+          2,
+          5
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "20": [
+      {
+        "id": 20,
+        "text": "a peaceful political transition in Geneva",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 27,
+        "endIndex": 33,
+        "sentNum": 2,
+        "position": [
+          2,
+          7
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "21": [
+      {
+        "id": 21,
+        "text": "a statement",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 38,
+        "endIndex": 40,
+        "sentNum": 2,
+        "position": [
+          2,
+          10
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "22": [
+      {
+        "id": 22,
+        "text": "peace talks in the Swiss city",
+        "type": "NOMINAL",
+        "number": "PLURAL",
+        "gender": "UNKNOWN",
+        "animacy": "INANIMATE",
+        "startIndex": 43,
+        "endIndex": 49,
+        "sentNum": 2,
+        "position": [
+          2,
+          11
+        ],
+        "isRepresentativeMention": true
+      }
+    ],
+    "23": [
+      {
+        "id": 23,
+        "text": "the Swiss city",
+        "type": "NOMINAL",
+        "number": "SINGULAR",
+        "gender": "NEUTRAL",
+        "animacy": "INANIMATE",
+        "startIndex": 46,
+        "endIndex": 49,
+        "sentNum": 2,
+        "position": [
+          2,
+          12
+        ],
+        "isRepresentativeMention": true
+      }
+    ]
+  }
+}
