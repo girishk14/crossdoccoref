@@ -69,6 +69,9 @@ This folder contains the files with respect to Natural Logic Inference. We exper
 
 * We also try 600-dimension vectors by concatenating the sum of word vectors for the two sentences in each pair, and used an SVM to train on these vectors.
 
+###Results
+* Result on the SNLI data set on 1000 sentence pairs : ResultSVMToyData.csv
+* Result on the Toy Data set on sampled 100 sentence pairs: ResultSamples100.csv
 
 ###TODO
 * Remove failed experiments!
