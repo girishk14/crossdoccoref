@@ -1,3 +1,10 @@
-data
 stanford-corenlp-full-2015-12-09
 WordEmbedding
+NLI
+NLI/classifiers/glove_avg_vectors/Glove-1.2/vocab.json
+NLI/classifiers/glove_avg_vectors/Glove-1.2/vectorimage.npy
+NLI/classifiers/glove_avg_vectors/Glove-1.2/glove_sent_vectors.npy
+NLI/classifiers/sent_vectors/SVMFunction*
+NLI/classifiers/sent_vectors/sentence_pair_vectors.npy
+NLI/classifiers/sent_vectors/selected_sentence_pairs.json
+
